@@ -1,3 +1,6 @@
 var Redis = require('ioredis');
 var fs = require('fs');
-const 
+const uuid = require('uuid')
+
+async function CreateHash() {
+    const id = Set
