@@ -8,4 +8,6 @@ async function CreateHash() {
     try {
         var client = new Redis({
             // host: '#####.publb.rackspaceclouddb.com',
-    
+            // port: 1234,
+            // password: 'YOUR_PASSWORD',
+            // tls
