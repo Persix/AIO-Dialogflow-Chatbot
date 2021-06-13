@@ -6,4 +6,6 @@ async function CreateHash() {
     const id = SetupUUID()
     console.log(`Hash ID: ${id}`)
     try {
-        var cl
+        var client = new Redis({
+            // host: '#####.publb.rackspaceclouddb.com',
+    
