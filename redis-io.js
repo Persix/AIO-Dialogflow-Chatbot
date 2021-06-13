@@ -10,4 +10,5 @@ async function CreateHash() {
             // host: '#####.publb.rackspaceclouddb.com',
             // port: 1234,
             // password: 'YOUR_PASSWORD',
-            // tls
+            // tls: {
+            //     ca: fs.readFileSync('LOCAL/PATH/TO/rackspace-ca-20
