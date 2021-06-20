@@ -16,4 +16,7 @@ async function CreateHash() {
         });
     
         const hashValue = {
-          
+            "FirstName": "Zion",
+            "LastName": "Williamson"
+        }
+        
