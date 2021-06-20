@@ -11,4 +11,9 @@ async function CreateHash() {
             // port: 1234,
             // password: 'YOUR_PASSWORD',
             // tls: {
-            //     ca: fs.readFileSync('LOCAL/PATH/TO/rackspace-ca-20
+            //     ca: fs.readFileSync('LOCAL/PATH/TO/rackspace-ca-2016.pem')
+            // }
+        });
+    
+        const hashValue = {
+          
