@@ -19,4 +19,7 @@ async function CreateHash() {
             "FirstName": "Zion",
             "LastName": "Williamson"
         }
-        
+        await client.hmset(id, hashValue)
+
+
+        const SessionDat
