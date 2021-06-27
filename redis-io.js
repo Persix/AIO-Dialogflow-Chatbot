@@ -22,4 +22,5 @@ async function CreateHash() {
         await client.hmset(id, hashValue)
 
 
-        const SessionDat
+        const SessionData = await client.hgetall(id);
+        console.log(`SessionData`)
