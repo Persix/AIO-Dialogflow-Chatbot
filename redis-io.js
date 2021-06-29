@@ -24,3 +24,6 @@ async function CreateHash() {
 
         const SessionData = await client.hgetall(id);
         console.log(`SessionData`)
+        console.log(SessionData)
+
+        // console.log(`sessionData: $
