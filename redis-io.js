@@ -26,4 +26,6 @@ async function CreateHash() {
         console.log(`SessionData`)
         console.log(SessionData)
 
-        // console.log(`sessionData: $
+        // console.log(`sessionData: ${sessionData}`)
+        
+        client.del(id, function (err, resul
