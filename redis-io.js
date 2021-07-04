@@ -31,4 +31,9 @@ async function CreateHash() {
         client.del(id, function (err, result) {
             if (err) throw err;
 
-            console.log('Delete R
+            console.log('Delete Record:', result);
+        });
+        
+        client.quit();
+    }
+  
