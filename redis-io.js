@@ -28,4 +28,7 @@ async function CreateHash() {
 
         // console.log(`sessionData: ${sessionData}`)
         
-        client.del(id, function (err, resul
+        client.del(id, function (err, result) {
+            if (err) throw err;
+
+            console.log('Delete R
