@@ -36,4 +36,9 @@ async function CreateHash() {
         
         client.quit();
     }
-  
+    catch (e) {
+        console.log('Error: ', e);
+    }
+}
+
+async function Setup
