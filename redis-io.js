@@ -41,4 +41,7 @@ async function CreateHash() {
     }
 }
 
-async function Setup
+async function SetupUUID() {
+    var uuid_v4 = uuid.v4()
+    console.log(uuid_v4)
+    return uuid_v4
