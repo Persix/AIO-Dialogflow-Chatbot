@@ -8,4 +8,7 @@ const app = express()
 const bodyParser = require('body-parser');
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-app.set('trust prox
+app.set('trust proxy', 1)
+
+const { WebhookClient } = require('dialogflow-fulfillment-helper')
+const { 
