@@ -15,4 +15,5 @@ const { Card, Suggestion } = require('dialogflow-fulfillment-helper')
 const { Payload } = require('dialogflow-fulfillment-helper')
 
 var { google } = require('googleapis')
-c
+const sheets = google.sheets('v4')
+var { GoogleAuth } = require('google-a
