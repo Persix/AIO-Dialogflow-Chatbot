@@ -12,4 +12,7 @@ app.set('trust proxy', 1)
 
 const { WebhookClient } = require('dialogflow-fulfillment-helper')
 const { Card, Suggestion } = require('dialogflow-fulfillment-helper')
-const { Payload } = re
+const { Payload } = require('dialogflow-fulfillment-helper')
+
+var { google } = require('googleapis')
+c
