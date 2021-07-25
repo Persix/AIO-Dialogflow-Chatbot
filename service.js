@@ -11,4 +11,5 @@ app.use(express.json())
 app.set('trust proxy', 1)
 
 const { WebhookClient } = require('dialogflow-fulfillment-helper')
-const { 
+const { Card, Suggestion } = require('dialogflow-fulfillment-helper')
+const { Payload } = re
