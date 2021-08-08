@@ -22,4 +22,5 @@ const path = require('path');
 const moment = require('moment')
 
 const { searchconsole } = require('googleapis/build/src/apis/searchconsole')
-const { MapsClient } = req
+const { MapsClient } = require("@googlemaps/google-maps-services-js");
+const { response } = require('
