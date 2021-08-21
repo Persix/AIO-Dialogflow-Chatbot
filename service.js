@@ -29,4 +29,7 @@ var socketio = require("socket.io")
 const uuid = require('uuid')
 const randomid = uuid.v4
 const session = require('express-session')
-const coo
+const cookieParser = require('cookie-parser')
+
+const redis = require('redis');
+const
