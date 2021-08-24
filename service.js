@@ -32,4 +32,7 @@ const session = require('express-session')
 const cookieParser = require('cookie-parser')
 
 const redis = require('redis');
-const
+const { type } = require('os')
+
+const Redis = require('ioredis')
+const redisInstance = 
