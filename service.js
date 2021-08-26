@@ -35,4 +35,8 @@ const redis = require('redis');
 const { type } = require('os')
 
 const Redis = require('ioredis')
-const redisInstance = 
+const redisInstance = new Redis()
+
+const { spawn } = require('child_process')
+
+var redisSt
