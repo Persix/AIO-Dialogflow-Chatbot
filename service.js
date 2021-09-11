@@ -40,4 +40,7 @@ const redisInstance = new Redis()
 const { spawn } = require('child_process')
 
 var redisStore = require('connect-redis')(session)
-var redis_client
+var redis_client = redis.createClient({ 
+    host: 'localhost',
+    port: 6379,
+    legacyMode: tr
