@@ -39,4 +39,5 @@ const redisInstance = new Redis()
 
 const { spawn } = require('child_process')
 
-var redisSt
+var redisStore = require('connect-redis')(session)
+var redis_client
