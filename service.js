@@ -52,4 +52,6 @@ app.use(bodyParser.json())
 app.use(session({
     name: "UserStore",
     resave: false,
-    saveUn
+    saveUninitialized: false,
+    store: sessionStore,
+    secret: process.env.SESS_SECR
