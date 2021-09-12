@@ -58,4 +58,8 @@ app.use(session({
     cookie: {
         maxAge: 1000 * 60 * 60 * 2,
         sameSite: true,
-      
+        secure: 'development'
+    }
+}))
+
+var spreadsheetId = process.env.GOOGLE_SPR
