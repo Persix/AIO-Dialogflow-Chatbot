@@ -43,4 +43,8 @@ var redisStore = require('connect-redis')(session)
 var redis_client = redis.createClient({ 
     host: 'localhost',
     port: 6379,
-    legacyMode: tr
+    legacyMode: true
+});
+var sessionStore = new redisStore({ client: redis_client })
+
+app.use(bodyParse
