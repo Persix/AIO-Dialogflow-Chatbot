@@ -47,4 +47,9 @@ var redis_client = redis.createClient({
 });
 var sessionStore = new redisStore({ client: redis_client })
 
-app.use(bodyParse
+app.use(bodyParser.json())
+
+app.use(session({
+    name: "UserStore",
+    resave: false,
+    saveUn
