@@ -65,4 +65,4 @@ app.use(session({
 var spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID
 
 app.listen(3008, async() => {  
-    console.l
+    console.log('Hosting fulfillment service webhooks... Waiting for reque
