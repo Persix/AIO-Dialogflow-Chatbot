@@ -65,4 +65,7 @@ app.use(session({
 var spreadsheetId = process.env.GOOGLE_SPREADSHEET_ID
 
 app.listen(3008, async() => {  
-    console.log('Hosting fulfillment service webhooks... Waiting for reque
+    console.log('Hosting fulfillment service webhooks... Waiting for requests from dialogflow...')
+    await redis_client.connect();
+})
+const oneDay = 1000 * 60 * 60
