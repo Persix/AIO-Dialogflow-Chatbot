@@ -68,4 +68,7 @@ app.listen(3008, async() => {
     console.log('Hosting fulfillment service webhooks... Waiting for requests from dialogflow...')
     await redis_client.connect();
 })
-const oneDay = 1000 * 60 * 60
+const oneDay = 1000 * 60 * 60 * 24;
+
+async function SessionId(session_path) {
+    const session_array = se
