@@ -71,4 +71,5 @@ app.listen(3008, async() => {
 const oneDay = 1000 * 60 * 60 * 24;
 
 async function SessionId(session_path) {
-    const session_array = se
+    const session_array = session_path.split('/')
+    var session_id = session_array[session_arr
