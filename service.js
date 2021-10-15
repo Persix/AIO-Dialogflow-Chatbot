@@ -72,4 +72,5 @@ const oneDay = 1000 * 60 * 60 * 24;
 
 async function SessionId(session_path) {
     const session_array = session_path.split('/')
-    var session_id = session_array[session_arr
+    var session_id = session_array[session_array.length -1]
+    console.log(`Dialogflow Session ID: ${session_id}`)
