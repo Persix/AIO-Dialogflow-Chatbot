@@ -83,4 +83,9 @@ async function CreateHash(id) {
     console.log(`Hash ID: ${id}`)
     try {
             var client = new Redis({
-        
+        });
+    
+        const customerData = {
+            "sessionID": id
+        }
+ 
