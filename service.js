@@ -80,4 +80,7 @@ async function SessionId(session_path) {
 
 async function CreateHash(id) {
    
-    con
+    console.log(`Hash ID: ${id}`)
+    try {
+            var client = new Redis({
+        
