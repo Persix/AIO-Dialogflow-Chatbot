@@ -74,3 +74,10 @@ async function SessionId(session_path) {
     const session_array = session_path.split('/')
     var session_id = session_array[session_array.length -1]
     console.log(`Dialogflow Session ID: ${session_id}`)
+    return session_id
+} 
+
+
+async function CreateHash(id) {
+   
+    con
