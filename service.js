@@ -89,4 +89,8 @@ async function CreateHash(id) {
             "sessionID": id
         }
         await client.hmset(id, customerData)
-        const SessionData = await client.hg
+        const SessionData = await client.hgetall(id);
+    }
+    catch (e) {
+        console.log('Error: ', e);
+    }
