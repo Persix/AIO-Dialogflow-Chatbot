@@ -94,3 +94,8 @@ async function CreateHash(id) {
     catch (e) {
         console.log('Error: ', e);
     }
+}
+
+async function SetupUUID() {
+    var uuid_v4 = uuid.v4()
+    console.log(uuid_v
