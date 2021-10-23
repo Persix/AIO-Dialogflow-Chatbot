@@ -88,4 +88,5 @@ async function CreateHash(id) {
         const customerData = {
             "sessionID": id
         }
- 
+        await client.hmset(id, customerData)
+        const SessionData = await client.hg
