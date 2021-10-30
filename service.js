@@ -98,4 +98,8 @@ async function CreateHash(id) {
 
 async function SetupUUID() {
     var uuid_v4 = uuid.v4()
-    console.log(uuid_v
+    console.log(uuid_v4)
+    return uuid_v4
+}
+
+app.post('/webhook', async(request, response) 
