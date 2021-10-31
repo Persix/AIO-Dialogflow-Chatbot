@@ -102,4 +102,6 @@ async function SetupUUID() {
     return uuid_v4
 }
 
-app.post('/webhook', async(request, response) 
+app.post('/webhook', async(request, response) => {
+    console.log(request)
+    const query = request.body.queryResult   
