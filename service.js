@@ -104,4 +104,7 @@ async function SetupUUID() {
 
 app.post('/webhook', async(request, response) => {
     console.log(request)
-    const query = request.body.queryResult   
+    const query = request.body.queryResult    
+    console.log(request.body)
+
+    const intent = request.body.quer
