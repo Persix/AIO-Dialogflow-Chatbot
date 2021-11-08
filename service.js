@@ -107,4 +107,5 @@ app.post('/webhook', async(request, response) => {
     const query = request.body.queryResult    
     console.log(request.body)
 
-    const intent = request.body.quer
+    const intent = request.body.queryResult.intent.displayName;
+    const score = request.body.queryResult.int
