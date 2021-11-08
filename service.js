@@ -108,4 +108,7 @@ app.post('/webhook', async(request, response) => {
     console.log(request.body)
 
     const intent = request.body.queryResult.intent.displayName;
-    const score = request.body.queryResult.int
+    const score = request.body.queryResult.intentDetectionConfidence;
+  
+
+    const fulfillmentText = request.body.queryResult
