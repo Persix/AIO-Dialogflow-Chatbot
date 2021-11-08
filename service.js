@@ -111,4 +111,6 @@ app.post('/webhook', async(request, response) => {
     const score = request.body.queryResult.intentDetectionConfidence;
   
 
-    const fulfillmentText = request.body.queryResult
+    const fulfillmentText = request.body.queryResult.fulfillmentText;
+    if (fulfillmentText) {
+        console.log(`Agent Response: ${f
