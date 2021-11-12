@@ -120,3 +120,6 @@ app.post('/webhook', async(request, response) => {
     var session_id = await SessionId(session_path)
     await CreateHash(session_id)
     const parameters = request.body.queryResult.parameters
+    const action = request.body.queryResult.action;
+    
+    if (action == "input.welcome") {   
