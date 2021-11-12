@@ -113,4 +113,7 @@ app.post('/webhook', async(request, response) => {
 
     const fulfillmentText = request.body.queryResult.fulfillmentText;
     if (fulfillmentText) {
-        console.log(`Agent Response: ${f
+        console.log(`Agent Response: ${fulfillmentText}`)
+    }
+  
+    const session_path = request.body.session;
