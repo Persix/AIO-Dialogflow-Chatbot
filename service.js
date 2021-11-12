@@ -117,3 +117,5 @@ app.post('/webhook', async(request, response) => {
     }
   
     const session_path = request.body.session;
+    var session_id = await SessionId(session_path)
+    await CreateHa
