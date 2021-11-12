@@ -122,4 +122,6 @@ app.post('/webhook', async(request, response) => {
     const parameters = request.body.queryResult.parameters
     const action = request.body.queryResult.action;
     
-    if (action == "input.welcome") {   
+    if (action == "input.welcome") {       
+        const client = new Redis()
+        const sessData = await cli
