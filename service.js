@@ -125,4 +125,6 @@ app.post('/webhook', async(request, response) => {
     if (action == "input.welcome") {       
         const client = new Redis()
         const sessData = await client.hgetall(session_id)
-        if (sessData.FirstName && sessData.LastName) 
+        if (sessData.FirstName && sessData.LastName) {           
+                var agentResponse = {
+                    "fulfillm
