@@ -127,4 +127,4 @@ app.post('/webhook', async(request, response) => {
         const sessData = await client.hgetall(session_id)
         if (sessData.FirstName && sessData.LastName) {           
                 var agentResponse = {
-                    "fulfillm
+                    "fulfillmentText": `Hey, what's up ${sessData.FirstName}! What could I help y
