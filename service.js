@@ -133,4 +133,5 @@ app.post('/webhook', async(request, response) => {
         }        
     }
     
-    if (action == "appointment-book
+    if (action == "appointment-booking-checkdate") {
+        console.log("Validating the requested appointment date wi
