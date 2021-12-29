@@ -134,4 +134,5 @@ app.post('/webhook', async(request, response) => {
     }
     
     if (action == "appointment-booking-checkdate") {
-        console.log("Validating the requested appointment date wi
+        console.log("Validating the requested appointment date with fulfillment service...")
+        var time_parameter = paramete
