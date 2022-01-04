@@ -141,4 +141,5 @@ app.post('/webhook', async(request, response) => {
         var formatted_date = moment(date).format('MMMM Do')
         
         var dt = new Date(date_parameter)
-        if 
+        if (dt.getDay() == 6 || dt.getDay() == 0) {
+            console.log("The r
