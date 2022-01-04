@@ -144,4 +144,4 @@ app.post('/webhook', async(request, response) => {
         if (dt.getDay() == 6 || dt.getDay() == 0) {
             console.log("The requested date is a weekend...")
             var jsonResponse = {
-    
+                "fulfillmentText" : "I'm really sorry, but pick-ups don't ru
