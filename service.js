@@ -142,4 +142,6 @@ app.post('/webhook', async(request, response) => {
         
         var dt = new Date(date_parameter)
         if (dt.getDay() == 6 || dt.getDay() == 0) {
-            console.log("The r
+            console.log("The requested date is a weekend...")
+            var jsonResponse = {
+    
