@@ -146,4 +146,7 @@ app.post('/webhook', async(request, response) => {
             var jsonResponse = {
                 "fulfillmentText" : "I'm really sorry, but pick-ups don't run on weekends, only week days from 8-11 am."            
             }
-          
+           return response.json(jsonResponse)
+        }
+ 
+        var time = moment(time_parameter).
