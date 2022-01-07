@@ -149,4 +149,5 @@ app.post('/webhook', async(request, response) => {
            return response.json(jsonResponse)
         }
  
-        var time = moment(time_parameter).
+        var time = moment(time_parameter).format('HH:mm')       
+        var formattedtime = moment(ti
