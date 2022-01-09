@@ -152,4 +152,6 @@ app.post('/webhook', async(request, response) => {
         var time = moment(time_parameter).format('HH:mm')       
         var formattedtime = moment(time_parameter).format('LT')
 
-        console.log(`formattedtime is: ${forma
+        console.log(`formattedtime is: ${formattedtime}`)
+        console.log(`Time is: ${time}`)
+        var time_string =
