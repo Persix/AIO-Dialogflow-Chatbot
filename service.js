@@ -156,4 +156,6 @@ app.post('/webhook', async(request, response) => {
         console.log(`Time is: ${time}`)
         var time_string = String(time)
         var time_array = time_string.split(":")
-    
+        var hours = time_array[0]
+        var minutes = time_array[1]
+   
