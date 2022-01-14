@@ -160,4 +160,4 @@ app.post('/webhook', async(request, response) => {
         var minutes = time_array[1]
         var total_minutes = Number(hours) * 60 + Number(minutes)
         
- 
+        console.log("Verifying whether the requested time is wi
