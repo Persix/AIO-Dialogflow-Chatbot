@@ -158,4 +158,6 @@ app.post('/webhook', async(request, response) => {
         var time_array = time_string.split(":")
         var hours = time_array[0]
         var minutes = time_array[1]
-   
+        var total_minutes = Number(hours) * 60 + Number(minutes)
+        
+ 
