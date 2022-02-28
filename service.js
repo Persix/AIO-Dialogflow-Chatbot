@@ -161,4 +161,5 @@ app.post('/webhook', async(request, response) => {
         var total_minutes = Number(hours) * 60 + Number(minutes)
         
         console.log("Verifying whether the requested time is within business hours (8am-11am)...")
-        if (total_minutes >= 480 && total_minut
+        if (total_minutes >= 480 && total_minutes < 660) {
+        console.log("Requested time meets the 
