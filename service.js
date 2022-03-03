@@ -162,4 +162,6 @@ app.post('/webhook', async(request, response) => {
         
         console.log("Verifying whether the requested time is within business hours (8am-11am)...")
         if (total_minutes >= 480 && total_minutes < 660) {
-        console.log("Requested time meets the criteria! Check whether that date is available in appointment spreadsheet..."
+        console.log("Requested time meets the criteria! Check whether that date is available in appointment spreadsheet...")
+        const status = await VerifyAppointment(parameters)
+        console.log("The 
