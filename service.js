@@ -167,4 +167,7 @@ app.post('/webhook', async(request, response) => {
         console.log("The appointment status is: " + status)
         
         if (status == "available") {
-            const context = request.body.queryResult["output
+            const context = request.body.queryResult["outputContexts"]
+            try {
+            const hashMap = {
+           
