@@ -166,4 +166,5 @@ app.post('/webhook', async(request, response) => {
         const status = await VerifyAppointment(parameters)
         console.log("The appointment status is: " + status)
         
-        if (status == "a
+        if (status == "available") {
+            const context = request.body.queryResult["output
