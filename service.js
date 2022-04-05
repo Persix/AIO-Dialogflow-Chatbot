@@ -170,4 +170,5 @@ app.post('/webhook', async(request, response) => {
             const context = request.body.queryResult["outputContexts"]
             try {
             const hashMap = {
-           
+                "AppointmentDate": String(date),
+                "AppointmentTime":
