@@ -171,4 +171,6 @@ app.post('/webhook', async(request, response) => {
             try {
             const hashMap = {
                 "AppointmentDate": String(date),
-                "AppointmentTime":
+                "AppointmentTime": String(formattedtime)
+            }
+                var client = new Re
