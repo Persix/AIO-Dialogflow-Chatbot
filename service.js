@@ -173,4 +173,6 @@ app.post('/webhook', async(request, response) => {
                 "AppointmentDate": String(date),
                 "AppointmentTime": String(formattedtime)
             }
-                var client = new Re
+                var client = new Redis()    
+                await client.hmset(session_id, hashMap)
+        
