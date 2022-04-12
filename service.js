@@ -179,4 +179,6 @@ app.post('/webhook', async(request, response) => {
             } catch (err) {
             console.log(err)
             }
-            for (i=0; i < cont
+            for (i=0; i < context.length; i++) {
+                var context_name = context[i]["name"]
+ 
