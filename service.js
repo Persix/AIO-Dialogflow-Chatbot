@@ -181,4 +181,4 @@ app.post('/webhook', async(request, response) => {
             }
             for (i=0; i < context.length; i++) {
                 var context_name = context[i]["name"]
- 
+                if (context_name == session_path + '/contexts/' + 'appointm
