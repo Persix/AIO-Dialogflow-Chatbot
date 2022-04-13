@@ -186,4 +186,5 @@ app.post('/webhook', async(request, response) => {
                     console.log("Attempting to update appointment details to spreadsheet...")
                     var update_sheet = await ChangeAppointment(parameters, "reschedule", session_id)
                     console.log(`ChangeAppointment() Result: ${update_sheet}`)  
-              
+                        if (update_sheet == "success") {
+                       
