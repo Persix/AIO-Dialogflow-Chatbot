@@ -184,4 +184,5 @@ app.post('/webhook', async(request, response) => {
                 if (context_name == session_path + '/contexts/' + 'appointment-booking-reschedule') {
                     console.log("Customer is in the process of rescheduling an appointment...") 
                     console.log("Attempting to update appointment details to spreadsheet...")
-                    var update_sheet = await ChangeAppointment(pa
+                    var update_sheet = await ChangeAppointment(parameters, "reschedule", session_id)
+                    console.log(`
