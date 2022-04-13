@@ -187,4 +187,4 @@ app.post('/webhook', async(request, response) => {
                     var update_sheet = await ChangeAppointment(parameters, "reschedule", session_id)
                     console.log(`ChangeAppointment() Result: ${update_sheet}`)  
                         if (update_sheet == "success") {
-                       
+                            var jsonResponse = { "fulfillmentText" : `And... you're all set! I resch
