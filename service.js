@@ -188,4 +188,6 @@ app.post('/webhook', async(request, response) => {
                     console.log(`ChangeAppointment() Result: ${update_sheet}`)  
                         if (update_sheet == "success") {
                             var jsonResponse = { "fulfillmentText" : `And... you're all set! I rescheduled your new appointment date to ${formatted_date} at ${formattedtime}. Please let me know if you need help with anything, I would absolutely love to help.`}
-         
+                        }
+                        if (update_sheet == "fail") {
+       
