@@ -192,4 +192,7 @@ app.post('/webhook', async(request, response) => {
                         if (update_sheet == "fail") {
                             var jsonResponse = { "fulfillmentText" : `I'm incredibly sorry, we're having network issues, so I'm having issues on our end. Once our system's back up, I will reschedule your appointment date as soon as possible!`}
                         }
-                        response.send(jsonResponse)   
+                        response.send(jsonResponse)                            
+                }
+
+                if (c
