@@ -196,4 +196,4 @@ app.post('/webhook', async(request, response) => {
                 }
 
                 if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {     
-                    var jsonResponse = { "fulfillmentText" : `Perfect, yo
+                    var jsonResponse = { "fulfillmentText" : `Perfect, you're in luck! ${formatted_date} at ${formattedtime} is available... What name should I put 
