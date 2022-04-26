@@ -195,4 +195,4 @@ app.post('/webhook', async(request, response) => {
                         response.send(jsonResponse)                            
                 }
 
-                if (c
+                if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {     
