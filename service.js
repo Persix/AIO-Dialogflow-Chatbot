@@ -203,4 +203,4 @@ app.post('/webhook', async(request, response) => {
                 }
             } else {
                 var jsonResponse = {
-                    "fulfillmentText" : 
+                    "fulfillmentText" : `Sorry, we're completely booked on ${formatted_date}... Would it be okay if we c
