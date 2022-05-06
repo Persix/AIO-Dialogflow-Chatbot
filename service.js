@@ -204,4 +204,7 @@ app.post('/webhook', async(request, response) => {
             } else {
                 var jsonResponse = {
                     "fulfillmentText" : `Sorry, we're completely booked on ${formatted_date}... Would it be okay if we chose a different date? I would still love to help you.`            
-       
+                }
+            }    
+           
+            response.json(jsonRespons
