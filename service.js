@@ -210,4 +210,6 @@ app.post('/webhook', async(request, response) => {
             response.json(jsonResponse)
 
         } else {
-            console.log("Appointment time is outsi
+            console.log("Appointment time is outside of business hours")
+            var jsonResponse = {
+                "fulf
