@@ -207,4 +207,7 @@ app.post('/webhook', async(request, response) => {
                 }
             }    
            
-            response.json(jsonRespons
+            response.json(jsonResponse)
+
+        } else {
+            console.log("Appointment time is outsi
