@@ -212,4 +212,4 @@ app.post('/webhook', async(request, response) => {
         } else {
             console.log("Appointment time is outside of business hours")
             var jsonResponse = {
-                "fulfillmentText" : `Sorry, ${formatted_date} at ${formattedtime} is outside
+                "fulfillmentText" : `Sorry, ${formatted_date} at ${formattedtime} is outside of our business fundraiser hours. We are only available on weekdays, from 8
