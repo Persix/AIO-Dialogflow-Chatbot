@@ -214,4 +214,9 @@ app.post('/webhook', async(request, response) => {
             var jsonResponse = {
                 "fulfillmentText" : `Sorry, ${formatted_date} at ${formattedtime} is outside of our business fundraiser hours. We are only available on weekdays, from 8am - 11am. What time works best for you?`
             }
-            response.send(jsonRes
+            response.send(jsonResponse)
+        }
+    }
+
+    if (action == "appointment-booking-getname") {
+      
