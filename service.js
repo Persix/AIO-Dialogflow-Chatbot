@@ -221,4 +221,4 @@ app.post('/webhook', async(request, response) => {
     if (action == "appointment-booking-getname") {
         // ******* The name of a specific context object has the format below:  ******** //
         
-        console.log("Using cont
+        console.log("Using context to determine whether the customer intends to book, reschedule, or c
