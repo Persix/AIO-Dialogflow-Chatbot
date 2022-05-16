@@ -222,4 +222,5 @@ app.post('/webhook', async(request, response) => {
         // ******* The name of a specific context object has the format below:  ******** //
         
         console.log("Using context to determine whether the customer intends to book, reschedule, or cancel their appointment\n")
-        // Strategy: Parse the most recent context object in the query request and apply the following operations
+        // Strategy: Parse the most recent context object in the query request and apply the following operations:
+        // Step (1) Split the context name by the '/' backslash c
