@@ -224,4 +224,5 @@ app.post('/webhook', async(request, response) => {
         console.log("Using context to determine whether the customer intends to book, reschedule, or cancel their appointment\n")
         // Strategy: Parse the most recent context object in the query request and apply the following operations:
         // Step (1) Split the context name by the '/' backslash character into 9 elements
-        // Step (2) Extract the last element in the cont
+        // Step (2) Extract the last element in the context array 
+        // Step (3) Check if the context name is equal to 'appoi
