@@ -226,4 +226,6 @@ app.post('/webhook', async(request, response) => {
         // Step (1) Split the context name by the '/' backslash character into 9 elements
         // Step (2) Extract the last element in the context array 
         // Step (3) Check if the context name is equal to 'appointment-booking-reschedule'
-        var FirstName = await parameters["firs
+        var FirstName = await parameters["first-name"]
+        var LastName = await parameters["last-name"]
+   
