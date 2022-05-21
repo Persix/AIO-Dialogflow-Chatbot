@@ -228,4 +228,6 @@ app.post('/webhook', async(request, response) => {
         // Step (3) Check if the context name is equal to 'appointment-booking-reschedule'
         var FirstName = await parameters["first-name"]
         var LastName = await parameters["last-name"]
-   
+        console.log("Attempting to update session hash data...")
+        try {
+  
