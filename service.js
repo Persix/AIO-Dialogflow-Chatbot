@@ -230,4 +230,6 @@ app.post('/webhook', async(request, response) => {
         var LastName = await parameters["last-name"]
         console.log("Attempting to update session hash data...")
         try {
-  
+          const client = new Redis()
+          const hashMap = {
+              "
