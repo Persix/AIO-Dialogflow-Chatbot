@@ -232,4 +232,7 @@ app.post('/webhook', async(request, response) => {
         try {
           const client = new Redis()
           const hashMap = {
-              "
+              "FirstName": FirstName,
+              "LastName": LastName
+            }
+   
