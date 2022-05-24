@@ -235,4 +235,5 @@ app.post('/webhook', async(request, response) => {
               "FirstName": FirstName,
               "LastName": LastName
             }
-   
+            await client.hmset(session_id, hashMap)
+            const sessData = a
