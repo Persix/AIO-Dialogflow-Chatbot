@@ -236,4 +236,6 @@ app.post('/webhook', async(request, response) => {
               "LastName": LastName
             }
             await client.hmset(session_id, hashMap)
-            const sessData = a
+            const sessData = await client.hgetall(session_id)
+            console.log(sessData)
+       
