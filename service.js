@@ -242,4 +242,5 @@ app.post('/webhook', async(request, response) => {
 
         }
         
-        const context = request.body.qu
+        const context = request.body.queryResult["outputContexts"]
+        console.log(`Displaying ${cont
