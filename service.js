@@ -238,4 +238,8 @@ app.post('/webhook', async(request, response) => {
             await client.hmset(session_id, hashMap)
             const sessData = await client.hgetall(session_id)
             console.log(sessData)
-       
+        } catch(err) {
+
+        }
+        
+        const context = request.body.qu
