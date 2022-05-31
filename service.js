@@ -245,4 +245,6 @@ app.post('/webhook', async(request, response) => {
         const context = request.body.queryResult["outputContexts"]
         console.log(`Displaying ${context.length} items in the context list: \n`)
         // console.log(context)
-      
+        console.log(`Printing context: \n`)
+        // console.log(context)
+   
