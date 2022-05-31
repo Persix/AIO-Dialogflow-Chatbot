@@ -247,4 +247,5 @@ app.post('/webhook', async(request, response) => {
         // console.log(context)
         console.log(`Printing context: \n`)
         // console.log(context)
-   
+        for (i=0; i < context.length; i++) {
+            // console.log(`Parsi
