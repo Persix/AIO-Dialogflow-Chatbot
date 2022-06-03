@@ -248,4 +248,5 @@ app.post('/webhook', async(request, response) => {
         console.log(`Printing context: \n`)
         // console.log(context)
         for (i=0; i < context.length; i++) {
-            // console.log(`Parsi
+            // console.log(`Parsing the context object...`)
+            var context_name = context[i]["name"
