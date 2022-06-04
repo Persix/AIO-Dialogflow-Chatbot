@@ -252,4 +252,5 @@ app.post('/webhook', async(request, response) => {
             var context_name = context[i]["name"]
             if (context_name == session_path + '/contexts/' + 'appointment-booking-reschedule') {
                 if (FirstName !== undefined && LastName !== undefined) {
-                    console.log(`Saving customer name
+                    console.log(`Saving customer name: ${FirstName} ${LastName} to session cache...`)
+                    const res_
