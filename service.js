@@ -250,4 +250,5 @@ app.post('/webhook', async(request, response) => {
         for (i=0; i < context.length; i++) {
             // console.log(`Parsing the context object...`)
             var context_name = context[i]["name"]
-            if (context_name == session_path + '/contexts/' + 'appointment-book
+            if (context_name == session_path + '/contexts/' + 'appointment-booking-reschedule') {
+                if (FirstName !== undefined && LastName 
