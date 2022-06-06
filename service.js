@@ -255,4 +255,6 @@ app.post('/webhook', async(request, response) => {
                     console.log(`Saving customer name: ${FirstName} ${LastName} to session cache...`)
                     const res_context = { 
                         "entity": "name",
-          
+                        "action": "reschedule"
+                    }
+                 
