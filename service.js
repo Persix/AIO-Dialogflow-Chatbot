@@ -259,4 +259,6 @@ app.post('/webhook', async(request, response) => {
                     }
                     const fulfillmentText = await LookupName(parameters, res_context, session_id)
                     var jsonResponse = {
-                       
+                        "fulfillmentText": fulfillmentText
+                    }
+             
