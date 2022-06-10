@@ -264,4 +264,4 @@ app.post('/webhook', async(request, response) => {
                     response.send(jsonResponse)
                 }
             }
-     
+            if (context_name == session_path + '/contexts/' + 'appoint
