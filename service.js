@@ -257,4 +257,6 @@ app.post('/webhook', async(request, response) => {
                         "entity": "name",
                         "action": "reschedule"
                     }
-                    const fulfillmentText = await LookupName(parameters, res_context, session_i
+                    const fulfillmentText = await LookupName(parameters, res_context, session_id)
+                    var jsonResponse = {
+                       
