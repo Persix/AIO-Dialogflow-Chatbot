@@ -261,4 +261,7 @@ app.post('/webhook', async(request, response) => {
                     var jsonResponse = {
                         "fulfillmentText": fulfillmentText
                     }
-             
+                    response.send(jsonResponse)
+                }
+            }
+     
