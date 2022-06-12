@@ -265,4 +265,5 @@ app.post('/webhook', async(request, response) => {
                 }
             }
             if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {
-                    console.log(`Customer is attemp
+                    console.log(`Customer is attempting to book an appointment... `)
+                    var jsonRespons
