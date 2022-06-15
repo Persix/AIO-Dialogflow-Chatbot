@@ -267,4 +267,5 @@ app.post('/webhook', async(request, response) => {
             if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {
                     console.log(`Customer is attempting to book an appointment... `)
                     var jsonResponse = { 
-                        "fulfillmentText": `Thank you ${parameters["first-name"]}! Please give me your email as well, we send out important reminders and details regar
+                        "fulfillmentText": `Thank you ${parameters["first-name"]}! Please give me your email as well, we send out important reminders and details regarding your appointment.`}
+                    response.json(j
