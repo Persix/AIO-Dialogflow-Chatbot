@@ -268,4 +268,5 @@ app.post('/webhook', async(request, response) => {
                     console.log(`Customer is attempting to book an appointment... `)
                     var jsonResponse = { 
                         "fulfillmentText": `Thank you ${parameters["first-name"]}! Please give me your email as well, we send out important reminders and details regarding your appointment.`}
-                    response.json(j
+                    response.json(jsonResponse)
+                    var FirstName = await parameters["first-na
