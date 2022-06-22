@@ -272,4 +272,7 @@ app.post('/webhook', async(request, response) => {
                     var FirstName = await parameters["first-name"]
                     var LastName = await parameters["last-name"]
                     
-                    console.log(FirstName
+                    console.log(FirstName)
+                    console.log(LastName)
+                    
+                   
