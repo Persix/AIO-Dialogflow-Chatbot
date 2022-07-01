@@ -287,4 +287,5 @@ app.post('/webhook', async(request, response) => {
              if (context_name == session_path + '/contexts/' + 'appointment-booking-cancel') {
                     console.log(`Customer is attempting to cancel an appointment... `)
                 //     var jsonResponse = { 
-                //         "fulfillmentText": `Thank you ${parameters["first-name"].original}! Please give me your email as well, we send out important reminders and details regardin
+                //         "fulfillmentText": `Thank you ${parameters["first-name"].original}! Please give me your email as well, we send out important reminders and details regarding your appointment.`}
+                //   response.json(jsonResp
