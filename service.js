@@ -290,4 +290,5 @@ app.post('/webhook', async(request, response) => {
                 //         "fulfillmentText": `Thank you ${parameters["first-name"].original}! Please give me your email as well, we send out important reminders and details regarding your appointment.`}
                 //   response.json(jsonResponse)
                    console.log("Checking if customer name was provided...")
-    
+                var FirstName = await parameters["first-name"]
+             
