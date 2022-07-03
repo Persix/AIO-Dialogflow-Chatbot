@@ -288,4 +288,6 @@ app.post('/webhook', async(request, response) => {
                     console.log(`Customer is attempting to cancel an appointment... `)
                 //     var jsonResponse = { 
                 //         "fulfillmentText": `Thank you ${parameters["first-name"].original}! Please give me your email as well, we send out important reminders and details regarding your appointment.`}
-                //   response.json(jsonResp
+                //   response.json(jsonResponse)
+                   console.log("Checking if customer name was provided...")
+    
