@@ -292,4 +292,7 @@ app.post('/webhook', async(request, response) => {
                    console.log("Checking if customer name was provided...")
                 var FirstName = await parameters["first-name"]
                 var LastName = await parameters["last-name"]
-                console.log(F
+                console.log(FirstName)
+                console.log(LastName)
+
+                if (
