@@ -296,4 +296,5 @@ app.post('/webhook', async(request, response) => {
                 console.log(LastName)
 
                 if (FirstName !== undefined && LastName !== undefined) {
-                    console
+                    console.log("Customer provided full name.... LookupAppointment() \n")
+                    c
