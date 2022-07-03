@@ -295,4 +295,5 @@ app.post('/webhook', async(request, response) => {
                 console.log(FirstName)
                 console.log(LastName)
 
-                if (
+                if (FirstName !== undefined && LastName !== undefined) {
+                    console
