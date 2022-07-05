@@ -298,4 +298,6 @@ app.post('/webhook', async(request, response) => {
                 if (FirstName !== undefined && LastName !== undefined) {
                     console.log("Customer provided full name.... LookupAppointment() \n")
                     console.log(`${FirstName} ${LastName}`)
-                    const context_canc
+                    const context_cancel = {
+                        "entity": "name",
+                        "acti
