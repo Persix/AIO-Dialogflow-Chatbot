@@ -304,3 +304,5 @@ app.post('/webhook', async(request, response) => {
                         }
                         
                     const fulfillmentText = await LookupName(parameters, context_cancel)
+                    var jsonResponse = {
+                        "fulfillmentText
