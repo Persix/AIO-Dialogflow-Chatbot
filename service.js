@@ -311,4 +311,4 @@ app.post('/webhook', async(request, response) => {
                     response.send(jsonResponse)
 
                     console.log(`Saving customer name: ${FirstName} ${LastName} to session cache...`)
-     
+                    redis_client.set("FirstName", FirstName, function(err, response) { i
