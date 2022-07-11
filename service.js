@@ -310,4 +310,5 @@ app.post('/webhook', async(request, response) => {
                     console.log(`Sending fulfillment response: "${fulfillmentText}" to customer...`)
                     response.send(jsonResponse)
 
-                    console.
+                    console.log(`Saving customer name: ${FirstName} ${LastName} to session cache...`)
+     
