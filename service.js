@@ -307,4 +307,5 @@ app.post('/webhook', async(request, response) => {
                     var jsonResponse = {
                         "fulfillmentText": fulfillmentText
                     }
-                    console.log(`
+                    console.log(`Sending fulfillment response: "${fulfillmentText}" to customer...`)
+     
