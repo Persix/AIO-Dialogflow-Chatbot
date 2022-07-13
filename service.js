@@ -312,4 +312,6 @@ app.post('/webhook', async(request, response) => {
 
                     console.log(`Saving customer name: ${FirstName} ${LastName} to session cache...`)
                     redis_client.set("FirstName", FirstName, function(err, response) { if(err) { console.log(err)} console.log("Saved customer's first name to session cache...") })
-                    redis_client.set("LastName", LastName, function(err, response) { if(err) { console.log(err) } console.log("Saved cus
+                    redis_client.set("LastName", LastName, function(err, response) { if(err) { console.log(err) } console.log("Saved customer's lastname to session cache...") }) }
+  
+                } 
