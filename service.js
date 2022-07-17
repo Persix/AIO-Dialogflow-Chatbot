@@ -319,4 +319,6 @@ app.post('/webhook', async(request, response) => {
         }
     }
 
-    if (action == "get_customer_emai
+    if (action == "get_customer_email") {
+        console.log(query)
+        console.log("Displaying parameters...")
