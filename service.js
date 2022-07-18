@@ -322,3 +322,5 @@ app.post('/webhook', async(request, response) => {
     if (action == "get_customer_email") {
         console.log(query)
         console.log("Displaying parameters...")
+        // Run operations to check if the email was provided...
+        console
