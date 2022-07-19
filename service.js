@@ -327,4 +327,5 @@ app.post('/webhook', async(request, response) => {
         console.log("Printing parameters...")
         console.log(parameters)
         if (parameters["email"].length > 0) {
-   
+            var Email = parameters["email"]     
+            console.log
