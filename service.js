@@ -328,4 +328,4 @@ app.post('/webhook', async(request, response) => {
         console.log(parameters)
         if (parameters["email"].length > 0) {
             var Email = parameters["email"]     
-            console.log
+            console.log(`Attempting to store ${Email} in session hash....`)        
