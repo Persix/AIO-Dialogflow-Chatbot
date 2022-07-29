@@ -330,4 +330,8 @@ app.post('/webhook', async(request, response) => {
             var Email = parameters["email"]     
             console.log(`Attempting to store ${Email} in session hash....`)          
             console.log("Email is: " + Email)
-            const hashData
+            const hashData = {
+                "Email": Email
+            }
+
+            try {       
