@@ -334,4 +334,6 @@ app.post('/webhook', async(request, response) => {
                 "Email": Email
             }
 
-            try {       
+            try {                
+                const client = await new Redis()
+    
