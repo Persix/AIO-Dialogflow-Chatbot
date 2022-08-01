@@ -339,4 +339,7 @@ app.post('/webhook', async(request, response) => {
                 await client.hmset(session_id, hashData)
                 const sessData = await client.hgetall(session_id)
             } catch(err) {
-                c
+                console.log(err)
+            }
+
+            redis_client.set("Email", Email, function(
