@@ -342,4 +342,7 @@ app.post('/webhook', async(request, response) => {
                 console.log(err)
             }
 
-            redis_client.set("Email", Email, function(
+            redis_client.set("Email", Email, function(err, response) {
+                if(err) {
+                    console.log(err)
+          
