@@ -345,4 +345,6 @@ app.post('/webhook', async(request, response) => {
             redis_client.set("Email", Email, function(err, response) {
                 if(err) {
                     console.log(err)
-          
+                }
+                console.log("Saved customer's email to session cache...")
+ 
