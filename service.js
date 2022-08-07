@@ -349,4 +349,4 @@ app.post('/webhook', async(request, response) => {
                 console.log("Saved customer's email to session cache...")
             })
             var jsonResponse = {
-                "fu
+                "fulfillmentText" : "Thanks! I need your phone number in order to book the appointment
