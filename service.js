@@ -347,4 +347,6 @@ app.post('/webhook', async(request, response) => {
                     console.log(err)
                 }
                 console.log("Saved customer's email to session cache...")
- 
+            })
+            var jsonResponse = {
+                "fu
