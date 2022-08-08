@@ -351,4 +351,7 @@ app.post('/webhook', async(request, response) => {
             var jsonResponse = {
                 "fulfillmentText" : "Thanks! I need your phone number in order to book the appointment, we're almost finished!"
             }
-            console.log("Activ
+            console.log("Activate'appointment-booking-getnumber'")
+           
+    } else {
+        console.l
