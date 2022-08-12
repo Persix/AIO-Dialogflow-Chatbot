@@ -356,4 +356,8 @@ app.post('/webhook', async(request, response) => {
     } else {
         console.log("Email not found... Triggering 'appointment-booking-getemail' intent...")
         var jsonResponse = {
-            "fulfillmentText" : "Sorry! I need your email in o
+            "fulfillmentText" : "Sorry! I need your email in order to book the appointment"
+        }
+        
+    }
+        response.
