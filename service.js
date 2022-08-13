@@ -365,4 +365,6 @@ app.post('/webhook', async(request, response) => {
 
     if (action == "appointment-booking-getphone") {
         console.log("Saving customer's phone number to system...")
-        console.log(param
+        console.log(parameters)
+        const Phone = parameters["phone-number"]
+        console.log("
