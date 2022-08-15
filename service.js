@@ -367,4 +367,7 @@ app.post('/webhook', async(request, response) => {
         console.log("Saving customer's phone number to system...")
         console.log(parameters)
         const Phone = parameters["phone-number"]
-        console.log("
+        console.log("Phone Number: " + Phone)
+
+       
+        if (Phone.replace(/\D/g,'').length !== 10
