@@ -373,4 +373,5 @@ app.post('/webhook', async(request, response) => {
         if (Phone.replace(/\D/g,'').length !== 10) {
             console.log("Phone number is invalid")
             var jsonResponse = {
-                "fulfillmentText": "Sorry, it looks like that pho
+                "fulfillmentText": "Sorry, it looks like that phone number is invalid, could you tell me the full phone number, please?"
+                }
