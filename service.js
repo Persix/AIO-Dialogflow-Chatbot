@@ -378,4 +378,6 @@ app.post('/webhook', async(request, response) => {
                 response.json(jsonResponse)
             
         } else {
-            co
+            console.log("Phone number is valid...")
+            var jsonResponse = {
+    
