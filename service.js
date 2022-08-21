@@ -380,4 +380,4 @@ app.post('/webhook', async(request, response) => {
         } else {
             console.log("Phone number is valid...")
             var jsonResponse = {
-    
+                "fulfillmentText": "Thanks! And the address of the locatio
