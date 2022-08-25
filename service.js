@@ -391,4 +391,5 @@ app.post('/webhook', async(request, response) => {
             const sessData = await client.hgetall(session_id)
             console.log(sessData)
 
-            redis_
+            redis_client.set("Phone", Phone, function(err, response) {
+              
