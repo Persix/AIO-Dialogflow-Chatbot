@@ -387,4 +387,5 @@ app.post('/webhook', async(request, response) => {
             console.log("Attempting to save customer phone number to session cache...")
             const client = new Redis()
             const hashData = { "Phone": Phone }
-            await client
+            await client.hmset(session_id, hashData)
+            const sessData = await client.hgeta
