@@ -392,4 +392,7 @@ app.post('/webhook', async(request, response) => {
             console.log(sessData)
 
             redis_client.set("Phone", Phone, function(err, response) {
-              
+                if(err) {
+                    console.log(err)
+                }
+       
