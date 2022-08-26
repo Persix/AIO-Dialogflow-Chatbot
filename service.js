@@ -398,4 +398,9 @@ app.post('/webhook', async(request, response) => {
                 console.log("Saved customer phone number to session cache")
             })
             } catch(err) {
-                console.log("
+                console.log("Error:", err)
+            }      
+        }
+    }
+
+    if (action == "appoi
