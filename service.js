@@ -395,4 +395,4 @@ app.post('/webhook', async(request, response) => {
                 if(err) {
                     console.log(err)
                 }
-       
+                console.log("Saved customer phone number to session cache")
