@@ -403,4 +403,6 @@ app.post('/webhook', async(request, response) => {
         }
     }
 
-    if (action == "appoi
+    if (action == "appointment-booking-getaddress") {
+        console.log(parameters)
+        var Ori
