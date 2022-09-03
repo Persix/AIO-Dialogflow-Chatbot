@@ -410,4 +410,6 @@ app.post('/webhook', async(request, response) => {
         var ZipCode = parameters["zipcode"]
         var City = parameters["city"]
         var Destination = Address + ", " + City + ", " + ZipCode;    
- 
+        console.log(Destination)   
+        
+        const cont
