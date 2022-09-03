@@ -408,4 +408,6 @@ app.post('/webhook', async(request, response) => {
         var Origin = "4231 Firestone Blvd, South Gate, California"
         var Address = parameters["address"]
         var ZipCode = parameters["zipcode"]
-        var City = par
+        var City = parameters["city"]
+        var Destination = Address + ", " + City + ", " + ZipCode;    
+ 
