@@ -412,4 +412,5 @@ app.post('/webhook', async(request, response) => {
         var Destination = Address + ", " + City + ", " + ZipCode;    
         console.log(Destination)   
         
-        const cont
+        const context = request.body.queryResult["outputContexts"]
+        for (var i=0; i
