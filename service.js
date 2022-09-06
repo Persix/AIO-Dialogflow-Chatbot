@@ -413,4 +413,5 @@ app.post('/webhook', async(request, response) => {
         console.log(Destination)   
         
         const context = request.body.queryResult["outputContexts"]
-        for (var i=0; i
+        for (var i=0; i <context.length; i++) {
+            console.log("Using the context to de
