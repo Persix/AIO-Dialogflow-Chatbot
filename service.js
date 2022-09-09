@@ -416,4 +416,5 @@ app.post('/webhook', async(request, response) => {
         for (var i=0; i <context.length; i++) {
             console.log("Using the context to determine the next best action...")
             // console.log("Iterate context_list")
- 
+            var context_name = context[i]["name"]
+            consol
