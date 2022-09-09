@@ -414,4 +414,6 @@ app.post('/webhook', async(request, response) => {
         
         const context = request.body.queryResult["outputContexts"]
         for (var i=0; i <context.length; i++) {
-            console.log("Using the context to de
+            console.log("Using the context to determine the next best action...")
+            // console.log("Iterate context_list")
+ 
