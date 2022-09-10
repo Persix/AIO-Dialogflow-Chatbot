@@ -417,4 +417,6 @@ app.post('/webhook', async(request, response) => {
             console.log("Using the context to determine the next best action...")
             // console.log("Iterate context_list")
             var context_name = context[i]["name"]
-            consol
+            console.log(`Index: ${i} Context Name: ${context_name}`)
+
+        
