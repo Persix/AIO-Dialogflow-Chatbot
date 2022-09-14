@@ -419,4 +419,4 @@ app.post('/webhook', async(request, response) => {
             var context_name = context[i]["name"]
             console.log(`Index: ${i} Context Name: ${context_name}`)
 
-        
+            if (context_name == session_path + '/contexts/' + 'appointment-booking-reschedul
