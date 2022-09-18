@@ -422,4 +422,6 @@ app.post('/webhook', async(request, response) => {
             if (context_name == session_path + '/contexts/' + 'appointment-booking-reschedule') {
                 console.log('Attempting to reschedule the appointment... Verifying the provided address')
                 const context_reschedule = {
-                  
+                    "entity": "address",
+                    "action": "reschedule"
+   
