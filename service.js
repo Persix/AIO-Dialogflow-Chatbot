@@ -426,4 +426,5 @@ app.post('/webhook', async(request, response) => {
                     "action": "reschedule"
                 }
                 // const fulfillmentText = await LookupAppointment(parameters, context_reschedule)
-                const fulfillmentText = await Look
+                const fulfillmentText = await LookupAddress(parameters, "reschedule", session_id)
+                response.send
