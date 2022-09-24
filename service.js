@@ -434,4 +434,5 @@ app.post('/webhook', async(request, response) => {
             }
 
             if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {
-                console.log("Ca
+                console.log("Calculating distance of the destination from driver location...")
+                var API_KEY = proc
