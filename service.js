@@ -436,4 +436,7 @@ app.post('/webhook', async(request, response) => {
             if (context_name == session_path + '/contexts/' + 'appointment-booking-create') {
                 console.log("Calculating distance of the destination from driver location...")
                 var API_KEY = process.env.DIRECTIONS_API_KEY;
-                var axios = r
+                var axios = require('axios')
+                var config = {
+                method: 'get',
+          
