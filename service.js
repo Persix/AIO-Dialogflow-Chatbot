@@ -442,4 +442,5 @@ app.post('/webhook', async(request, response) => {
                 url: `https://maps.googleapis.com/maps/api/directions/json?origin=${Origin}&destination=${Destination}&key=${API_KEY}`
                 }             
                 axios(config).then(async function(res) {            
-    
+                data = res.data           
+                distance = d
