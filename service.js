@@ -444,4 +444,5 @@ app.post('/webhook', async(request, response) => {
                 axios(config).then(async function(res) {            
                 data = res.data           
                 distance = data["routes"][0]["legs"][0]["distance"]["text"]
-                kilometers = data["
+                kilometers = data["routes"][0]["legs"][0]["distance"]["value"]
+                console.log
