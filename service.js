@@ -451,4 +451,5 @@ app.post('/webhook', async(request, response) => {
                             console.log("The destination is within range!")
                             var jsonResponse  = {
                                 "fulfillmentText" : `Perfect! I just looked up the address, it's only ${distance} away, which meets the fundraiser requirements. How many bags do you plan on selling?`
-  
+                            }
+                            console.log(
