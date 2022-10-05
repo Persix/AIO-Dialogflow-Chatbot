@@ -448,4 +448,5 @@ app.post('/webhook', async(request, response) => {
                 console.log(`The distance between origin and destination is: ${distance}`)
                 
                         if (kilometers < 160394) {
-                    
+                            console.log("The destination is within range!")
+          
