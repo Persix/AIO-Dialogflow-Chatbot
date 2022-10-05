@@ -445,4 +445,6 @@ app.post('/webhook', async(request, response) => {
                 data = res.data           
                 distance = data["routes"][0]["legs"][0]["distance"]["text"]
                 kilometers = data["routes"][0]["legs"][0]["distance"]["value"]
-                console.log
+                console.log(`The distance between origin and destination is: ${distance}`)
+                
+      
