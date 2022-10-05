@@ -447,4 +447,5 @@ app.post('/webhook', async(request, response) => {
                 kilometers = data["routes"][0]["legs"][0]["distance"]["value"]
                 console.log(`The distance between origin and destination is: ${distance}`)
                 
-      
+                        if (kilometers < 160394) {
+                    
