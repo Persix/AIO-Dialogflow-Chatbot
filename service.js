@@ -450,4 +450,4 @@ app.post('/webhook', async(request, response) => {
                         if (kilometers < 160394) {
                             console.log("The destination is within range!")
                             var jsonResponse  = {
-                                "fulfillmentText" 
+                                "fulfillmentText" : `Perfect! I just looked up the address, it's only ${distan
