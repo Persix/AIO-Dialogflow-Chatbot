@@ -453,4 +453,4 @@ app.post('/webhook', async(request, response) => {
                                 "fulfillmentText" : `Perfect! I just looked up the address, it's only ${distance} away, which meets the fundraiser requirements. How many bags do you plan on selling?`
                             }
                             console.log("Attempting to store DestinationAddress in memory...")
-                        
+                            redis_client.set("DestinationAddress", Destination, function(err,
