@@ -455,4 +455,6 @@ app.post('/webhook', async(request, response) => {
                             console.log("Attempting to store DestinationAddress in memory...")
                             redis_client.set("DestinationAddress", Destination, function(err, response) {
                                 if(err) {
-                       
+                                    console.log(err)
+                                }
+     
