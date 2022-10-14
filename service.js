@@ -461,4 +461,7 @@ app.post('/webhook', async(request, response) => {
                             })
                             console.log("Saved destination address to session cache...")
                             const hashMap = {
-                                "DestinationAddress": Des
+                                "DestinationAddress": Destination 
+                            }
+                            try {
+      
