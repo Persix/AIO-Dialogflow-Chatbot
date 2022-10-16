@@ -465,4 +465,5 @@ app.post('/webhook', async(request, response) => {
                             }
                             try {
                                 const client = new Redis()
-                     
+                                await client.hmset(session_id, hashMap)
+                                const
