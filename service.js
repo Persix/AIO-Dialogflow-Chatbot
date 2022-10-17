@@ -467,4 +467,6 @@ app.post('/webhook', async(request, response) => {
                                 const client = new Redis()
                                 await client.hmset(session_id, hashMap)
                                 const sessData = await client.hgetall(session_id) 
-                                console.
+                                console.log(sessData)
+                            } catch(err) {
+               
