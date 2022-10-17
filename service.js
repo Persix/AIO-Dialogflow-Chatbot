@@ -469,4 +469,6 @@ app.post('/webhook', async(request, response) => {
                                 const sessData = await client.hgetall(session_id) 
                                 console.log(sessData)
                             } catch(err) {
-               
+                                console.log(err)
+                            }
+        
