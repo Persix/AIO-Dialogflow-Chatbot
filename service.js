@@ -477,4 +477,4 @@ app.post('/webhook', async(request, response) => {
                             console.log("The destination is out of range")
                         
                             var jsonResponse = {
-                                "fulfillmentText" : "I'm so sorry, I just looked up the address on the map. It looks lik
+                                "fulfillmentText" : "I'm so sorry, I just looked up the address on the map. It looks like that address is out of driving range, we're only allowed to book appoin
