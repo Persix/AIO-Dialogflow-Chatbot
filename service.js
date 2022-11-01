@@ -486,4 +486,7 @@ app.post('/webhook', async(request, response) => {
                     
                 
                     }).catch(function(error) {
-       
+                        console.log(error)
+                    })
+                }
+  
