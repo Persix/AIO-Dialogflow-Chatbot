@@ -479,4 +479,6 @@ app.post('/webhook', async(request, response) => {
                             var jsonResponse = {
                                 "fulfillmentText" : "I'm so sorry, I just looked up the address on the map. It looks like that address is out of driving range, we're only allowed to book appointments that are within 100 miles of the corporate office. Would you prefer to book the appointment at a different location?"
                             }
-                            console.log("Sent response from server to cust
+                            console.log("Sent response from server to customer...")
+                            
+                        }
