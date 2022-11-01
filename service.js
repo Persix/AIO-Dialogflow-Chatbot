@@ -482,3 +482,6 @@ app.post('/webhook', async(request, response) => {
                             console.log("Sent response from server to customer...")
                             
                         }
+                        response.send(jsonResponse)
+                    
+   
