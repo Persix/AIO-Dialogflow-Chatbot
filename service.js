@@ -489,4 +489,5 @@ app.post('/webhook', async(request, response) => {
                         console.log(error)
                     })
                 }
-                if (context_name == session_path + '/contexts/' + 'appointment-booking-can
+                if (context_name == session_path + '/contexts/' + 'appointment-booking-cancel') {
+                    console.log("Attempting to verify the addres
