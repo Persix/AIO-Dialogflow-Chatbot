@@ -493,4 +493,6 @@ app.post('/webhook', async(request, response) => {
                     console.log("Attempting to verify the address provided by the customer and cancel the appointment...")
                     const context_cancel = {
                         "entity": "address",
-    
+                        "action": "cancel"
+                    }
+                  
