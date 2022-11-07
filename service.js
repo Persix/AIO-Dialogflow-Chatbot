@@ -496,4 +496,5 @@ app.post('/webhook', async(request, response) => {
                         "action": "cancel"
                     }
                     // const message = await LookupAppointment(parameters, context_cancel)
-                    const message = await LookupAddress(parameters, "
+                    const message = await LookupAddress(parameters, "cancel", session_id)
+                    var jsonResponse = { fulfillmentTe
