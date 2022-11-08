@@ -497,4 +497,5 @@ app.post('/webhook', async(request, response) => {
                     }
                     // const message = await LookupAppointment(parameters, context_cancel)
                     const message = await LookupAddress(parameters, "cancel", session_id)
-                    var jsonResponse = { fulfillmentTe
+                    var jsonResponse = { fulfillmentText: message }
+                    response.send(jsonResponse)              
