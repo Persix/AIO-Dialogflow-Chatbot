@@ -507,4 +507,5 @@ app.post('/webhook', async(request, response) => {
     if (action == "appointment-booking-getbags") {
         console.log(parameters)
         const BagNumber = parameters['bag-quantity']
-        console.l
+        console.log(`There are ${BagNumber} of bags...`)
+        if (BagNumber.leng
