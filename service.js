@@ -512,4 +512,7 @@ app.post('/webhook', async(request, response) => {
             if (BagNumber >= 150) {
                 console.log("Bag criteria met!")
                 const hashMap = {
-                    "BagQuantity
+                    "BagQuantity": BagNumber
+                }
+            try {
+                const client 
