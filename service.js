@@ -515,4 +515,5 @@ app.post('/webhook', async(request, response) => {
                     "BagQuantity": BagNumber
                 }
             try {
-                const client 
+                const client = new Redis()
+                await client.hmset(session_id
