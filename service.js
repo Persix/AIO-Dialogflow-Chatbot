@@ -523,4 +523,5 @@ app.post('/webhook', async(request, response) => {
             }
             var google_response = await CreateAppointment(session_id)       
             var jsonResponse = {
-                "fulfillmentText" : "That's perfect, your appointment is all set! How did this conv
+                "fulfillmentText" : "That's perfect, your appointment is all set! How did this conversation go? Could you provide feedback on areas I could improve?",
+      
