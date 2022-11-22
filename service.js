@@ -521,4 +521,6 @@ app.post('/webhook', async(request, response) => {
             } catch(err) {
                 console.log(err)
             }
-            var google_response = await CreateAppointme
+            var google_response = await CreateAppointment(session_id)       
+            var jsonResponse = {
+            
