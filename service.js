@@ -533,4 +533,5 @@ app.post('/webhook', async(request, response) => {
         }
         if (BagNumber < 150) {
             console.log("Bag criteria failed... Convince customer to drop off bags")
-            var
+            var jsonResponse = {
+                "fulfillmentText" : "I'm rea
