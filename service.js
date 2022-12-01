@@ -534,4 +534,7 @@ app.post('/webhook', async(request, response) => {
         if (BagNumber < 150) {
             console.log("Bag criteria failed... Convince customer to drop off bags")
             var jsonResponse = {
-                "fulfillmentText" : "I'm really sorry, unfortunately there is a minimum bag requirement of 150 bags for fundraisers that involve pick-up appointments. But, you can al
+                "fulfillmentText" : "I'm really sorry, unfortunately there is a minimum bag requirement of 150 bags for fundraisers that involve pick-up appointments. But, you can always drop off your bags Monday through Friday, from 6am to 1pm!"
+            }
+        }
+   
