@@ -541,4 +541,4 @@ app.post('/webhook', async(request, response) => {
 
     if (BagNumber.length > 1) {
         var jsonResponse = {
-  
+            "fulfillmentText" : "Okay! How many bags of wearable clothes, in tota
