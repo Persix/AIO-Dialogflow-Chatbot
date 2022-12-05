@@ -550,4 +550,5 @@ app.post('/webhook', async(request, response) => {
         response.send(jsonResponse)
 
     }
-    if (action == "appointmen
+    if (action == "appointment-booking-reschedule") {
+        console.log("The customer wants to reschedule the
