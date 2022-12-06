@@ -551,4 +551,6 @@ app.post('/webhook', async(request, response) => {
 
     }
     if (action == "appointment-booking-reschedule") {
-        console.log("The customer wants to reschedule the
+        console.log("The customer wants to reschedule their appointment...")
+    }
+    if (action == "collect-fe
