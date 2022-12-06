@@ -555,4 +555,6 @@ app.post('/webhook', async(request, response) => {
     }
     if (action == "collect-feedback") {
         console.log("The customer is attempting to provide feedback...")
-  
+        // console.log(parameters)
+        const feedback = query.queryText;
+   
