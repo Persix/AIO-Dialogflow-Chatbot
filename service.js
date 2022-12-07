@@ -557,4 +557,5 @@ app.post('/webhook', async(request, response) => {
         console.log("The customer is attempting to provide feedback...")
         // console.log(parameters)
         const feedback = query.queryText;
-   
+        console.log(`Feedback: ${feedback}`)
+        console.log(`Upload customer feed
