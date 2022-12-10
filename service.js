@@ -558,4 +558,4 @@ app.post('/webhook', async(request, response) => {
         // console.log(parameters)
         const feedback = query.queryText;
         console.log(`Feedback: ${feedback}`)
-        console.log(`Upload customer feed
+        console.log(`Upload customer feedback to google sheets api, along with their name, phone number, email, etc..
