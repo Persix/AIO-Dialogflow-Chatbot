@@ -568,4 +568,7 @@ async function PlacesAPI(address) {
     var request = require("request");
     var API_KEY = process.env.GOOGLE_MAPS_API_KEY;
     var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${API_KEY}`
-    // var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${CompanyAd
+    // var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${CompanyAddress}&key=${API_KEY}`
+    
+    console.log("Sending request ......")
+    request(URL, fu
