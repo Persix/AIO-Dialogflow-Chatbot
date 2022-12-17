@@ -567,4 +567,5 @@ app.post('/webhook', async(request, response) => {
 async function PlacesAPI(address) {
     var request = require("request");
     var API_KEY = process.env.GOOGLE_MAPS_API_KEY;
-    var URL = `https://m
+    var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${API_KEY}`
+    
