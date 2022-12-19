@@ -571,4 +571,5 @@ async function PlacesAPI(address) {
     // var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${CompanyAddress}&key=${API_KEY}`
     
     console.log("Sending request ......")
-    request(URL, fu
+    request(URL, function(error, response, body) {
+        if(!error && response.sta
