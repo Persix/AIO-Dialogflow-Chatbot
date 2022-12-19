@@ -572,4 +572,6 @@ async function PlacesAPI(address) {
     
     console.log("Sending request ......")
     request(URL, function(error, response, body) {
-        if(!error && response.sta
+        if(!error && response.statusCode == 200) {
+            var jsonbody = JSON.parse(body)
+           
