@@ -581,4 +581,10 @@ async function PlacesAPI(address) {
         }
         else {
             console.log(error)
-       
+            console.log("The request failed... ")
+        }
+
+    })
+    }
+
+async function 
