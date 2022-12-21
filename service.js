@@ -575,4 +575,6 @@ async function PlacesAPI(address) {
         if(!error && response.statusCode == 200) {
             var jsonbody = JSON.parse(body)
             console.log(jsonbody)
-            var place_id = jsonbody["result
+            var place_id = jsonbody["results"][0]["place_id"]
+            console.log(`place_id: ${place_id}`)
+           
