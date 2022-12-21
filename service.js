@@ -577,4 +577,8 @@ async function PlacesAPI(address) {
             console.log(jsonbody)
             var place_id = jsonbody["results"][0]["place_id"]
             console.log(`place_id: ${place_id}`)
-           
+            return place_id
+        }
+        else {
+            console.log(error)
+       
