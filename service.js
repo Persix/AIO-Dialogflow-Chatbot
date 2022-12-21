@@ -587,4 +587,5 @@ async function PlacesAPI(address) {
     })
     }
 
-async function 
+async function GetCoordinates(parameters) {
+    console.log("Extracting geocoordin
