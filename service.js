@@ -588,4 +588,6 @@ async function PlacesAPI(address) {
     }
 
 async function GetCoordinates(parameters) {
-    console.log("Extracting geocoordin
+    console.log("Extracting geocoordinates of destination address..")
+    var Address = parameters["address"]
+    var ZipCode
