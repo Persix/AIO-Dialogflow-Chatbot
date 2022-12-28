@@ -595,4 +595,5 @@ async function GetCoordinates(parameters) {
     var Destination = Address + ", " + City + ", " + ZipCode   
     console.log(`Destination is : ${Destination}`)
     var request = require("request");
-    var API_KEY = p
+    var API_KEY = process.env.GOOGLE_MAPS_API_KEY;
+    var URL = `https://maps.googleapis.com/maps/api
