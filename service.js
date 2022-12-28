@@ -593,4 +593,6 @@ async function GetCoordinates(parameters) {
     var ZipCode = parameters["zipcode"]
     var City = parameters["geo-city"]
     var Destination = Address + ", " + City + ", " + ZipCode   
-    console.log(`Destination i
+    console.log(`Destination is : ${Destination}`)
+    var request = require("request");
+    var API_KEY = p
