@@ -592,4 +592,5 @@ async function GetCoordinates(parameters) {
     var Address = parameters["address"]
     var ZipCode = parameters["zipcode"]
     var City = parameters["geo-city"]
-    var De
+    var Destination = Address + ", " + City + ", " + ZipCode   
+    console.log(`Destination i
