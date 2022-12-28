@@ -596,4 +596,5 @@ async function GetCoordinates(parameters) {
     console.log(`Destination is : ${Destination}`)
     var request = require("request");
     var API_KEY = process.env.GOOGLE_MAPS_API_KEY;
-    var URL = `https://maps.googleapis.com/maps/api
+    var URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${Destination}&key=${API_KEY}`
+    console.log("Generating coordi
