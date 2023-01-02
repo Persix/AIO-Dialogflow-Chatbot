@@ -603,4 +603,5 @@ async function GetCoordinates(parameters) {
         if(!error && response.statusCode == 200) {
             var jsonbody = JSON.parse(body)
             var results = jsonbody["results"][0]
-            
+            console.log("Printing coordinates:")
+            var coordinates = results["geometr
