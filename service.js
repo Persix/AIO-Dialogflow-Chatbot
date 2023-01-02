@@ -600,4 +600,5 @@ async function GetCoordinates(parameters) {
     console.log("Generating coordinates...")
    
     request(URL, function(error, response, body) {
-        if(!e
+        if(!error && response.statusCode == 200) {
+            var jsonbody = JSON.par
