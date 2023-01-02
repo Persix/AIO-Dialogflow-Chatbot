@@ -601,4 +601,6 @@ async function GetCoordinates(parameters) {
    
     request(URL, function(error, response, body) {
         if(!error && response.statusCode == 200) {
-            var jsonbody = JSON.par
+            var jsonbody = JSON.parse(body)
+            var results = jsonbody["results"][0]
+            
