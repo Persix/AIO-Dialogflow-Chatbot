@@ -604,4 +604,6 @@ async function GetCoordinates(parameters) {
             var jsonbody = JSON.parse(body)
             var results = jsonbody["results"][0]
             console.log("Printing coordinates:")
-            var coordinates = results["geometr
+            var coordinates = results["geometry"]["location"]
+            CalculateDistance(coordinates)           
+        }
