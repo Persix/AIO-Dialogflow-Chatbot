@@ -607,3 +607,7 @@ async function GetCoordinates(parameters) {
             var coordinates = results["geometry"]["location"]
             CalculateDistance(coordinates)           
         }
+
+        else {
+            console.log(error)
+            console
