@@ -615,4 +615,5 @@ async function GetCoordinates(parameters) {
     })
 }
 
-async function isVa
+async function isValidPhone(number) {
+    var phonere = /^[+]*[(]{0,1}[0-9
