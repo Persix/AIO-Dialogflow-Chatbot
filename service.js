@@ -610,4 +610,9 @@ async function GetCoordinates(parameters) {
 
         else {
             console.log(error)
-            console
+            console.log("The request failed... ")
+        }
+    })
+}
+
+async function isVa
