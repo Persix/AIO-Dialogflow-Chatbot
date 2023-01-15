@@ -618,4 +618,5 @@ async function GetCoordinates(parameters) {
 async function isValidPhone(number) {
     var phonere = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
     var digits = number.replace(/\D/g, "");
-    if (ph
+    if (phonere.test(text)) {
+        console.log("Phone number is i
