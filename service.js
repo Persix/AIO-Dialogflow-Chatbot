@@ -626,4 +626,6 @@ async function isValidPhone(number) {
     
 }
 async function CalculateDistance(parameters) {   
-    var Origin = "4
+    var Origin = "4231 Firestone Blvd, South Gate, California"
+    var Address = parameters["address"]
+ 
