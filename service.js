@@ -632,3 +632,5 @@ async function CalculateDistance(parameters) {
     var City = parameters["geo-city"]
     var Destination = Address + ", " + City + ", " + ZipCode   
     
+    var API_KEY = process.env.DIRECTIONS_API_KEY;
+    var axios = require('axios')
