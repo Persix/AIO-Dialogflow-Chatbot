@@ -636,4 +636,4 @@ async function CalculateDistance(parameters) {
     var axios = require('axios')
     var config = {
         method: 'get',
-        url: `https://maps.googleapis
+        url: `https://maps.googleapis.com/maps/api/directions/json?origin=${Origin}&destination=${Destination}&key=${API_KEY}`
