@@ -642,4 +642,5 @@ async function CalculateDistance(parameters) {
     axios(config).then(function(response) {
         data = response.data
         distance = data["routes"][0]["legs"][0]["distance"]["text"]
-        kilometers = data["routes"][
+        kilometers = data["routes"][0]["legs"][0]["distance"]["value"]
+        console.log(`The distance betwee
