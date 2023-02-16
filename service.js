@@ -641,4 +641,5 @@ async function CalculateDistance(parameters) {
     console.log("Attempting to send axios request to api...")
     axios(config).then(function(response) {
         data = response.data
-        distance = data["
+        distance = data["routes"][0]["legs"][0]["distance"]["text"]
+        kilometers = data["routes"][
