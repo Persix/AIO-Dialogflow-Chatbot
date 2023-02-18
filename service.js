@@ -648,3 +648,6 @@ async function CalculateDistance(parameters) {
         if (kilometers < 160394) {
             console.log("The destination is within range!")
             return "valid"
+        }
+        else{
+            console.log("The destination is out of ra
