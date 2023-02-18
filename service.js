@@ -643,4 +643,7 @@ async function CalculateDistance(parameters) {
         data = response.data
         distance = data["routes"][0]["legs"][0]["distance"]["text"]
         kilometers = data["routes"][0]["legs"][0]["distance"]["value"]
-        console.log(`The distance betwee
+        console.log(`The distance between origin and destination is: ${distance}`)
+
+        if (kilometers < 160394) {
+        
