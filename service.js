@@ -650,4 +650,8 @@ async function CalculateDistance(parameters) {
             return "valid"
         }
         else{
-            console.log("The destination is out of ra
+            console.log("The destination is out of range")
+            return "invalid"
+        }
+
+    }).catch(function(error) {
