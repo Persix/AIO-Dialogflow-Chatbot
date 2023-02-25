@@ -655,3 +655,9 @@ async function CalculateDistance(parameters) {
         }
 
     }).catch(function(error) {
+        console.log(error)
+    })
+    
+}
+
+async function LookupAppointment(appoin
