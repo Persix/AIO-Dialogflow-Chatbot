@@ -660,4 +660,7 @@ async function CalculateDistance(parameters) {
     
 }
 
-async function LookupAppointment(appoin
+async function LookupAppointment(appointment_details, context) {
+    console.log("Running LookupAppointment()...")
+    
+  
