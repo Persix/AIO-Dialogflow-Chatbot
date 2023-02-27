@@ -666,4 +666,5 @@ async function LookupAppointment(appointment_details, context) {
     const next_action = context["action"]
     const entity = context["entity"]
     console.log(`Appointment Details: ${appointment_details}`)
- 
+    console.log(appointment_details)
+    console.log(`Context is: ${c
