@@ -663,4 +663,5 @@ async function CalculateDistance(parameters) {
 async function LookupAppointment(appointment_details, context) {
     console.log("Running LookupAppointment()...")
     
-  
+    const next_action = context["action"]
+    const entity = context["
