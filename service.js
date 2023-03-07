@@ -674,4 +674,8 @@ async function LookupAppointment(appointment_details, context) {
     if (entity == "name") {
         const message = await LookupName(appointment_details)
         console.log(`Message: ${message}`)
-        r
+        return message;
+    }
+
+    if (entity == "address") {  
+        const message = Lo
