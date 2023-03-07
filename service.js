@@ -679,4 +679,9 @@ async function LookupAppointment(appointment_details, context) {
 
     if (entity == "address") {  
         const message = LookupAddress(appointment_details, next_action)
-        console.log(`Message: 
+        console.log(`Message: ${message}`)
+        return message;
+    }    
+}
+
+async function LookupName(parameters, c
