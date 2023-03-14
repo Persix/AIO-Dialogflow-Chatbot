@@ -684,4 +684,6 @@ async function LookupAppointment(appointment_details, context) {
     }    
 }
 
-async function LookupName(parameters, c
+async function LookupName(parameters, context, id) {
+    var FirstName = parameters["first-name"]
+    var Last
