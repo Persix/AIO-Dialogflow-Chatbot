@@ -690,4 +690,5 @@ async function LookupName(parameters, context, id) {
     var FullName =  FirstName + " " + LastName;
     console.log(`Looking for appointments under the name: ${FirstName} ${LastName} in spreadsheet`)
     try {
-        const auth = new google.auth.GoogleAu
+        const auth = new google.auth.GoogleAuth({
+            keyFile: "/Users/danieldayto/Coding/node-dialogflow
