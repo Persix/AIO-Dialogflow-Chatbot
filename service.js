@@ -688,4 +688,6 @@ async function LookupName(parameters, context, id) {
     var FirstName = parameters["first-name"]
     var LastName =  parameters["last-name"]
     var FullName =  FirstName + " " + LastName;
-    console.log(`Looking for appointments under the name: ${FirstName} ${LastName}
+    console.log(`Looking for appointments under the name: ${FirstName} ${LastName} in spreadsheet`)
+    try {
+        const auth = new google.auth.GoogleAu
