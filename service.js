@@ -695,4 +695,5 @@ async function LookupName(parameters, context, id) {
             scopes: "https://www.googleapis.com/auth/spreadsheets" 
         });
         const client = await auth.getClient();
-     
+        const sheets = google.sheets({ version: 'v4', auth: client })
+
