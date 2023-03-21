@@ -692,4 +692,7 @@ async function LookupName(parameters, context, id) {
     try {
         const auth = new google.auth.GoogleAuth({
             keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
-            scopes: "https://www.googleapis.com/a
+            scopes: "https://www.googleapis.com/auth/spreadsheets" 
+        });
+        const client = await auth.getClient();
+     
