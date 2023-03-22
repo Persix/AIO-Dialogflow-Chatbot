@@ -698,4 +698,6 @@ async function LookupName(parameters, context, id) {
         const sheets = google.sheets({ version: 'v4', auth: client })
 
         const firstname_query = await sheets.spreadsheets.values.get({
-    
+            spreadsheetId: spreadsheetId,
+            range: 'Sheet1!A2:A100'
+      
