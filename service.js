@@ -702,4 +702,5 @@ async function LookupName(parameters, context, id) {
             range: 'Sheet1!A2:A100'
          })
       
-         const appointment_firstnames = firstname_q
+         const appointment_firstnames = firstname_query.data.values
+         var matched_firstnames = []; // Get the row 
