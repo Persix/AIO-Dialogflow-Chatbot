@@ -707,4 +707,5 @@ async function LookupName(parameters, context, id) {
      
          for (item of appointment_firstnames) {
           
-             if (item.toString().to
+             if (item.toString().toLowerCase().includes(FirstName.toString().toLowerCase())) {
+                 
