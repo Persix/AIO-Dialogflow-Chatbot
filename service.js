@@ -705,4 +705,6 @@ async function LookupName(parameters, context, id) {
          const appointment_firstnames = firstname_query.data.values
          var matched_firstnames = []; // Get the row number of matched rows for firstname
      
-         for (item of a
+         for (item of appointment_firstnames) {
+          
+             if (item.toString().to
