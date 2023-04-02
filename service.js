@@ -709,4 +709,6 @@ async function LookupName(parameters, context, id) {
           
              if (item.toString().toLowerCase().includes(FirstName.toString().toLowerCase())) {
                  console.log(`First Name Found: ${item}`)
-                 var index = appointment_f
+                 var index = appointment_firstnames.indexOf(item)
+                 matched_firstnames.push(index)
+        
