@@ -711,4 +711,8 @@ async function LookupName(parameters, context, id) {
                  console.log(`First Name Found: ${item}`)
                  var index = appointment_firstnames.indexOf(item)
                  matched_firstnames.push(index)
-        
+                //  console.log(`index of firstname: ${index}`)
+             }
+         }
+
+   
