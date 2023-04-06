@@ -716,4 +716,7 @@ async function LookupName(parameters, context, id) {
          }
 
          const lastname_query = await sheets.spreadsheets.values.get({
-            spre
+            spreadsheetId: spreadsheetId,
+           range: 'Sheet1!B2:A100'
+        })
+ 
