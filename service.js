@@ -720,4 +720,6 @@ async function LookupName(parameters, context, id) {
            range: 'Sheet1!B2:A100'
         })
         const appointment_lastnames = lastname_query.data.values
-        var ma
+        var matched_lastnames = [] // Get the index of any matched rows for lastname
+
+        f
