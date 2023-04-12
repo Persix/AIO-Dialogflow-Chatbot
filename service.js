@@ -722,4 +722,5 @@ async function LookupName(parameters, context, id) {
         const appointment_lastnames = lastname_query.data.values
         var matched_lastnames = [] // Get the index of any matched rows for lastname
 
-        f
+        for (item of appointment_lastnames) {
+            if (item.toString().t
