@@ -723,4 +723,5 @@ async function LookupName(parameters, context, id) {
         var matched_lastnames = [] // Get the index of any matched rows for lastname
 
         for (item of appointment_lastnames) {
-            if (item.toString().t
+            if (item.toString().toLowerCase().includes(LastName.toString().toLowerCase())) {
+                console
