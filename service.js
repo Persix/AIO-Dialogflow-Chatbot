@@ -725,4 +725,6 @@ async function LookupName(parameters, context, id) {
         for (item of appointment_lastnames) {
             if (item.toString().toLowerCase().includes(LastName.toString().toLowerCase())) {
                 console.log(`Last Name Found: ${item}`)
-                // console.log(
+                // console.log(item)
+                var index = appointment_lastnames.indexOf(item)
+                matched
