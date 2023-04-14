@@ -731,4 +731,5 @@ async function LookupName(parameters, context, id) {
                 // console.log(`index of lastname: ${index}`)
             }
         }
-        // console.log(`matched_firstname
+        // console.log(`matched_firstnames.length is ${matched_firstnames}`)
+        // console.log(`matched_lastnames.len
