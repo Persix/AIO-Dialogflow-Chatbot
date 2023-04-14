@@ -732,4 +732,7 @@ async function LookupName(parameters, context, id) {
             }
         }
         // console.log(`matched_firstnames.length is ${matched_firstnames}`)
-        // console.log(`matched_lastnames.len
+        // console.log(`matched_lastnames.length is ${matched_lastnames}`)
+
+
+        if (matched_firstnames.le
