@@ -735,4 +735,5 @@ async function LookupName(parameters, context, id) {
         // console.log(`matched_lastnames.length is ${matched_lastnames}`)
 
 
-        if (matched_firstnames.le
+        if (matched_firstnames.length > 0 || matched_lastnames > 0) {
+            console.log(`Found ${matched_f
