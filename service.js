@@ -737,4 +737,4 @@ async function LookupName(parameters, context, id) {
 
         if (matched_firstnames.length > 0 || matched_lastnames > 0) {
             console.log(`Found ${matched_firstnames.length} matches of firstname in appointment spreadsheet --- \n `)
- 
+            console.log(`Found ${matched_lastnames.length} matches of last
