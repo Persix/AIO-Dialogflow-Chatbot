@@ -739,4 +739,5 @@ async function LookupName(parameters, context, id) {
             console.log(`Found ${matched_firstnames.length} matches of firstname in appointment spreadsheet --- \n `)
             console.log(`Found ${matched_lastnames.length} matches of lastname in appointment spreadsheet --- \n `)
             
-            var fulfillmentText = "Perfect! I was able to find your appo
+            var fulfillmentText = "Perfect! I was able to find your appointment in the system, could you please tell me the address of the event?"
+  
