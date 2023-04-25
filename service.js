@@ -743,4 +743,8 @@ async function LookupName(parameters, context, id) {
            
             
         } else {
-            var fulfillmentText = "Sorry, I wasn't able to find your appointment... Could you tell me the ad
+            var fulfillmentText = "Sorry, I wasn't able to find your appointment... Could you tell me the address of the event you scheduled, please?"
+           
+            } 
+        
+       
