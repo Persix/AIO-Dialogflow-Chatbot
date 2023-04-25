@@ -747,4 +747,7 @@ async function LookupName(parameters, context, id) {
            
             } 
         
-       
+        return fulfillmentText;
+
+    } catch(err) {
+        console.log(`Error: \n ${er
