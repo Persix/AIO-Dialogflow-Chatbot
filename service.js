@@ -756,4 +756,4 @@ async function LookupName(parameters, context, id) {
 
 
 async function ChangeAppointment(parameters, context, id) {  
-    console.log(
+    console.log("ChangeAppointment() function....using context to determine what fiel
