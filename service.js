@@ -750,4 +750,10 @@ async function LookupName(parameters, context, id) {
         return fulfillmentText;
 
     } catch(err) {
-        console.log(`Error: \n ${er
+        console.log(`Error: \n ${err}`)
+    }
+}
+
+
+async function ChangeAppointment(parameters, context, id) {  
+    console.log(
