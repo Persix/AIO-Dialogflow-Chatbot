@@ -765,4 +765,7 @@ async function ChangeAppointment(parameters, context, id) {
             console.log(sessionData)
             
         } catch(err) {
-           
+            console.log(err)
+        }
+        var Date = sessionData["AppointmentDate"]
+        
