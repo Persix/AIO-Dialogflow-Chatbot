@@ -762,3 +762,7 @@ async function ChangeAppointment(parameters, context, id) {
         try {
             const redisClient = new Redis()
             var sessionData = await redisClient.hgetall(id)
+            console.log(sessionData)
+            
+        } catch(err) {
+           
