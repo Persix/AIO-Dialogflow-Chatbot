@@ -769,4 +769,6 @@ async function ChangeAppointment(parameters, context, id) {
         }
         var Date = sessionData["AppointmentDate"]
         var Time = sessionData["AppointmentTime"]
-        var Index = sessionData[
+        var Index = sessionData["AppointmentIndex"]
+        var Phone = sessionData["Phone"]
+        
