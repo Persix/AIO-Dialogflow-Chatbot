@@ -775,4 +775,6 @@ async function ChangeAppointment(parameters, context, id) {
         var LastName = sessionData["LastName"]
         var RowNumber = Number(Index) + 2
 
-        if (context == "resch
+        if (context == "reschedule") {
+            try {
+                const auth = new google.auth.Google
