@@ -772,4 +772,7 @@ async function ChangeAppointment(parameters, context, id) {
         var Index = sessionData["AppointmentIndex"]
         var Phone = sessionData["Phone"]
         var FirstName = sessionData["FirstName"]
-        var LastName = sessionData["La
+        var LastName = sessionData["LastName"]
+        var RowNumber = Number(Index) + 2
+
+        if (context == "resch
