@@ -778,4 +778,5 @@ async function ChangeAppointment(parameters, context, id) {
         if (context == "reschedule") {
             try {
                 const auth = new google.auth.GoogleAuth({
-                    keyFile: "/Users/danieldayto/Coding/node-dialogflow/goo
+                    keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
+                    scopes: "https://www.googleapi
