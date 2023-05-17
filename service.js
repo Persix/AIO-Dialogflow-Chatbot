@@ -786,4 +786,5 @@ async function ChangeAppointment(parameters, context, id) {
                 const sheets = google.sheets({ version: 'v4', auth: client })
                 
                 
-            console
+            console.log("Updating appointment date and time for customer...")
+            cons
