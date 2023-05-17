@@ -783,4 +783,7 @@ async function ChangeAppointment(parameters, context, id) {
                 });
                 const client = await auth.getClient();
 
-                const sheets = google.sheets({ vers
+                const sheets = google.sheets({ version: 'v4', auth: client })
+                
+                
+            console
