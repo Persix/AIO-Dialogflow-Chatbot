@@ -781,4 +781,6 @@ async function ChangeAppointment(parameters, context, id) {
                     keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
                     scopes: "https://www.googleapis.com/auth/spreadsheets" 
                 });
-                const cli
+                const client = await auth.getClient();
+
+                const sheets = google.sheets({ vers
