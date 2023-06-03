@@ -788,4 +788,5 @@ async function ChangeAppointment(parameters, context, id) {
                 
             console.log("Updating appointment date and time for customer...")
             console.log(parameters)
-            var date_parameter = parameters[
+            var date_parameter = parameters["date"][0]
+            var date = moment(date_parameter).format('
