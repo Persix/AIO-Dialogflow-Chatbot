@@ -793,4 +793,5 @@ async function ChangeAppointment(parameters, context, id) {
             var time_parameter = parameters["time"][0]    
             var time = moment(time_parameter).format('LT')
 
-            const
+            const response = sheets.spreadsheets.values.update({
+            spreadsheetId: s
