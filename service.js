@@ -791,4 +791,6 @@ async function ChangeAppointment(parameters, context, id) {
             var date_parameter = parameters["date"][0]
             var date = moment(date_parameter).format('M/DD/YYYY') 
             var time_parameter = parameters["time"][0]    
-      
+            var time = moment(time_parameter).format('LT')
+
+            const
