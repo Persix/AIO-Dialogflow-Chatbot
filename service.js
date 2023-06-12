@@ -794,4 +794,6 @@ async function ChangeAppointment(parameters, context, id) {
             var time = moment(time_parameter).format('LT')
 
             const response = sheets.spreadsheets.values.update({
-            spreadsheetId: s
+            spreadsheetId: spreadsheetId,
+            // Get Row Number of Appointment
+            range: `Sheet1!C${R
