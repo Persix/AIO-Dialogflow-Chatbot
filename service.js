@@ -798,4 +798,9 @@ async function ChangeAppointment(parameters, context, id) {
             // Get Row Number of Appointment
             range: `Sheet1!C${RowNumber}:D${RowNumber}`,
             valueInputOption: "USER_ENTERED",
-            resour
+            resource: {
+            values: [[ date, time  ]]
+              }
+            
+            })
+   
