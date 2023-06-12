@@ -796,4 +796,6 @@ async function ChangeAppointment(parameters, context, id) {
             const response = sheets.spreadsheets.values.update({
             spreadsheetId: spreadsheetId,
             // Get Row Number of Appointment
-            range: `Sheet1!C${R
+            range: `Sheet1!C${RowNumber}:D${RowNumber}`,
+            valueInputOption: "USER_ENTERED",
+            resour
