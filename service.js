@@ -803,4 +803,8 @@ async function ChangeAppointment(parameters, context, id) {
               }
             
             })
-   
+            
+        } catch(e) {
+            console.log(e)
+        
+        }
