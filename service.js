@@ -808,4 +808,6 @@ async function ChangeAppointment(parameters, context, id) {
             console.log(e)
         
         }
-            console.log("Attempting to send a SMS reschedule message to stakeholders in bu
+            console.log("Attempting to send a SMS reschedule message to stakeholders in business...")
+            try {
+                const accountSid = process.env
