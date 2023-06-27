@@ -810,4 +810,5 @@ async function ChangeAppointment(parameters, context, id) {
         }
             console.log("Attempting to send a SMS reschedule message to stakeholders in business...")
             try {
-                const accountSid = process.env
+                const accountSid = process.env.TWILIO_ACCOUNT_SID;
+                const authToken = process.env.
