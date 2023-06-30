@@ -814,4 +814,5 @@ async function ChangeAppointment(parameters, context, id) {
                 const authToken = process.env.TWILIO_AUTH_TOKEN;
                 const twilioClient = require('twilio')(accountSid, authToken)
                 // twilioClient.messages.create({
-                //     body: `Your Julimen fundraiser has been ca
+                //     body: `Your Julimen fundraiser has been cancelled! We hope you're having a great day.`,
+                //     fr
