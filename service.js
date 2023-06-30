@@ -815,4 +815,6 @@ async function ChangeAppointment(parameters, context, id) {
                 const twilioClient = require('twilio')(accountSid, authToken)
                 // twilioClient.messages.create({
                 //     body: `Your Julimen fundraiser has been cancelled! We hope you're having a great day.`,
-                //     fr
+                //     from: '+16266998027',
+                //     to: `+1${Phone}`
+              
