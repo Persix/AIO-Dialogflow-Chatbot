@@ -817,4 +817,6 @@ async function ChangeAppointment(parameters, context, id) {
                 //     body: `Your Julimen fundraiser has been cancelled! We hope you're having a great day.`,
                 //     from: '+16266998027',
                 //     to: `+1${Phone}`
-              
+                // })
+                await twilioClient.messages.create({
+                    body:
