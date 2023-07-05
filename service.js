@@ -821,4 +821,6 @@ async function ChangeAppointment(parameters, context, id) {
                 await twilioClient.messages.create({
                     body: `${FirstName} ${LastName} has just rescheduled their appointment to ${Date} at ${Time}.`,
                     from: '+16266998027',
-  
+                    to: `+16262247156`
+                })
+                retu
