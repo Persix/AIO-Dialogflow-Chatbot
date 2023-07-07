@@ -836,4 +836,5 @@ async function ChangeAppointment(parameters, context, id) {
             if (context == "cancel") {             
                 try {
                     console.log('Authenticating with google sheets api....')
-                    const a
+                    const auth = new google.auth.GoogleAuth({
+                        keyFil
