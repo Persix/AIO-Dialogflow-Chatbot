@@ -829,4 +829,8 @@ async function ChangeAppointment(parameters, context, id) {
                     console.log(err)
                     return "fail"
                 }
- 
+              
+           
+        }            
+
+            if (context == "cance
