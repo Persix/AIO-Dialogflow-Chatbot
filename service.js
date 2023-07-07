@@ -833,4 +833,6 @@ async function ChangeAppointment(parameters, context, id) {
            
         }            
 
-            if (context == "cance
+            if (context == "cancel") {             
+                try {
+                    conso
