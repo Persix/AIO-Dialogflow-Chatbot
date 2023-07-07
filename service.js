@@ -835,4 +835,5 @@ async function ChangeAppointment(parameters, context, id) {
 
             if (context == "cancel") {             
                 try {
-                    conso
+                    console.log('Authenticating with google sheets api....')
+                    const a
