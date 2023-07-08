@@ -837,4 +837,5 @@ async function ChangeAppointment(parameters, context, id) {
                 try {
                     console.log('Authenticating with google sheets api....')
                     const auth = new google.auth.GoogleAuth({
-                        keyFil
+                        keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
+         
