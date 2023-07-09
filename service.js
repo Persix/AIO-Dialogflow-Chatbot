@@ -843,4 +843,6 @@ async function ChangeAppointment(parameters, context, id) {
 
 
                     const client = await auth.getClient();
-             
+                    console.log('Success! We connected to the google client... ')
+
+       
