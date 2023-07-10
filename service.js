@@ -846,3 +846,5 @@ async function ChangeAppointment(parameters, context, id) {
                     console.log('Success! We connected to the google client... ')
 
                     const sheets = google.sheets({ version: 'v4', auth: client })   
+                    const response = sheets.spreadsheets.values.update({
+       
