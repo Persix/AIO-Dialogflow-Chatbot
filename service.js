@@ -848,4 +848,5 @@ async function ChangeAppointment(parameters, context, id) {
                     const sheets = google.sheets({ version: 'v4', auth: client })   
                     const response = sheets.spreadsheets.values.update({
                         spreadsheetId: spreadsheetId,
-                        ran
+                        range: `Sheet1!I${RowNumber}`,
+                        valueInputOption: "
