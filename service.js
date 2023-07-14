@@ -849,4 +849,6 @@ async function ChangeAppointment(parameters, context, id) {
                     const response = sheets.spreadsheets.values.update({
                         spreadsheetId: spreadsheetId,
                         range: `Sheet1!I${RowNumber}`,
-                        valueInputOption: "
+                        valueInputOption: "USER_ENTERED",
+                        resource: {
+                            val
