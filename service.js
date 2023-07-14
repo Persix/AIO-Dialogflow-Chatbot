@@ -851,4 +851,6 @@ async function ChangeAppointment(parameters, context, id) {
                         range: `Sheet1!I${RowNumber}`,
                         valueInputOption: "USER_ENTERED",
                         resource: {
-                            val
+                            values: [[ "cancelled with agent"  ]]
+                        }
+      
