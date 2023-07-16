@@ -855,4 +855,5 @@ async function ChangeAppointment(parameters, context, id) {
                         }
                     })
                     return "success"
-        
+                } catch(e) {
+                    console.log(`Error: ${e}
