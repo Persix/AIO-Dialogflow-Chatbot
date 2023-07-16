@@ -864,4 +864,5 @@ async function ChangeAppointment(parameters, context, id) {
 
 async function LookupAddress(parameters, context, id) {
     try {
-        co
+        const redisClient = new Redis()
+        const customerData = await redisClient.
