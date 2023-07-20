@@ -871,4 +871,6 @@ async function LookupAddress(parameters, context, id) {
     }
    var spreadsheetId = '1fvdqyH_OzOWLhxKjPa2KM43l7IA-pLR5ZJCZrJMJxfQ'   
  
-        tr
+        try {
+            const auth = new google.auth.GoogleAuth({
+     
