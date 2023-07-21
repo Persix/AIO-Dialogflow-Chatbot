@@ -880,4 +880,7 @@ async function LookupAddress(parameters, context, id) {
             const client = await auth.getClient();
             var sheets = await new google.sheets({
                 version: 'v4',
- 
+                auth: client
+            })
+        } catch(err) {
+       
