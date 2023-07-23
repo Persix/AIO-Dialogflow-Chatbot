@@ -883,4 +883,6 @@ async function LookupAddress(parameters, context, id) {
                 auth: client
             })
         } catch(err) {
-       
+            console.log(err)
+        }
+        const response = await sheets.spre
