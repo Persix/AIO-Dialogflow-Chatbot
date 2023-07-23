@@ -885,4 +885,6 @@ async function LookupAddress(parameters, context, id) {
         } catch(err) {
             console.log(err)
         }
-        const response = await sheets.spre
+        const response = await sheets.spreadsheets.values.get({
+            spreadsheetId: spreadsheetId,
+           
