@@ -892,4 +892,6 @@ async function LookupAddress(parameters, context, id) {
         var address_list = response.data.values;
         var StreetAddress = parameters["address"][0]
         for (var i=0; i<address_list.length; i++) {
-            if (address_list[i][
+            if (address_list[i][0].includes(StreetAddress)) {
+                if (context == "reschedule") {
+   
