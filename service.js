@@ -895,4 +895,6 @@ async function LookupAddress(parameters, context, id) {
             if (address_list[i][0].includes(StreetAddress)) {
                 if (context == "reschedule") {
                     var fulfillmentText = "Perfect! Thanks for verifying the address. Which date would you prefer to switch your appointment to? Our drivers pick up clothes on week days, from 8 to 11 am."
-              
+                    const hashMap = {
+                        "AppointmentIndex": i,
+    
