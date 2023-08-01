@@ -894,4 +894,4 @@ async function LookupAddress(parameters, context, id) {
         for (var i=0; i<address_list.length; i++) {
             if (address_list[i][0].includes(StreetAddress)) {
                 if (context == "reschedule") {
-                    var fulfillmentText = "Perfect! Thanks for verifying th
+                    var fulfillmentText = "Perfect! Thanks for verifying the address. Which date would you prefer to switch your appointment to? Ou
