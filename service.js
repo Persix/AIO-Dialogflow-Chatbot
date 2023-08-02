@@ -898,4 +898,6 @@ async function LookupAddress(parameters, context, id) {
                     const hashMap = {
                         "AppointmentIndex": i,
                         "DestinationAddress": StreetAddress
-          
+                        }
+                    try {
+                        const rClient= new Re
