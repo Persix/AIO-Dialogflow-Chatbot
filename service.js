@@ -900,4 +900,6 @@ async function LookupAddress(parameters, context, id) {
                         "DestinationAddress": StreetAddress
                         }
                     try {
-                        const rClient= new Re
+                        const rClient= new Redis()
+                        await rClient.hmset(id, hashMap)
+               
