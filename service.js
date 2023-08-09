@@ -902,4 +902,5 @@ async function LookupAddress(parameters, context, id) {
                     try {
                         const rClient= new Redis()
                         await rClient.hmset(id, hashMap)
-               
+                        const sessData = await rClient.hgetall(id)
+                    } catch(er
