@@ -906,3 +906,6 @@ async function LookupAddress(parameters, context, id) {
                     } catch(err) {
                         console.log(err)
                     }
+                    return fulfillmentText
+               }
+                
