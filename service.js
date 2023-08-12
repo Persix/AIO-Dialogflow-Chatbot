@@ -910,4 +910,6 @@ async function LookupAddress(parameters, context, id) {
                }
                 if (context == "cancel") {
                     var FirstName = await redis_client.get("FirstName", function(err, response) {
-                        if (err) throw er
+                        if (err) throw err;
+                        console.log(`Success! \n ${response}`)
+         
