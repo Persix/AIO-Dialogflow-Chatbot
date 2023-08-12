@@ -912,4 +912,5 @@ async function LookupAddress(parameters, context, id) {
                     var FirstName = await redis_client.get("FirstName", function(err, response) {
                         if (err) throw err;
                         console.log(`Success! \n ${response}`)
-         
+                    })
+                    var LastName = await redis_clien
