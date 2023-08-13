@@ -913,4 +913,5 @@ async function LookupAddress(parameters, context, id) {
                         if (err) throw err;
                         console.log(`Success! \n ${response}`)
                     })
-                    var LastName = await redis_clien
+                    var LastName = await redis_client.get("LastName", function(err, response) {
+                        if (
