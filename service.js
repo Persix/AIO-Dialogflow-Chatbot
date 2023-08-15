@@ -917,4 +917,6 @@ async function LookupAddress(parameters, context, id) {
                         if (err) throw err;
                         console.log(`Success! \n ${response}`)
                     })
-                    var AppointmentDate = await redis_client.get("AppointmentDate", function(err, 
+                    var AppointmentDate = await redis_client.get("AppointmentDate", function(err, response) {
+                        if (err) throw err;
+            
