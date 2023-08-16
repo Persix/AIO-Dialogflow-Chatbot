@@ -919,4 +919,4 @@ async function LookupAddress(parameters, context, id) {
                     })
                     var AppointmentDate = await redis_client.get("AppointmentDate", function(err, response) {
                         if (err) throw err;
-            
+                        console.log(`Successfuly retrieved AppointmentDate to session memory... ${res
