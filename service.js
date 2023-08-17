@@ -924,4 +924,5 @@ async function LookupAddress(parameters, context, id) {
                     
                     var AppointmentIndex = await redis_client.get("AppointmentIndex", function(err, response) {
                         if (err) throw err;
-                        console.log(`Successfull
+                        console.log(`Successfully retrieved AppointmentIndex value appointment in memory... ${response}`)
+   
