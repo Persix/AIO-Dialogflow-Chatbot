@@ -922,4 +922,5 @@ async function LookupAddress(parameters, context, id) {
                         console.log(`Successfuly retrieved AppointmentDate to session memory... ${response}`)
                     })
                     
-                    var AppointmentInde
+                    var AppointmentIndex = await redis_client.get("AppointmentIndex", function(err, response) {
+                  
