@@ -926,4 +926,5 @@ async function LookupAddress(parameters, context, id) {
                         if (err) throw err;
                         console.log(`Successfully retrieved AppointmentIndex value appointment in memory... ${response}`)
                     })
-                    const message = await ChangeAppoin
+                    const message = await ChangeAppointment(parameters, context, id)
+                    // var jsonResponse = { "fulfillmentText": "Pe
