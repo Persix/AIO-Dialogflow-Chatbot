@@ -928,4 +928,6 @@ async function LookupAddress(parameters, context, id) {
                     })
                     const message = await ChangeAppointment(parameters, context, id)
                     // var jsonResponse = { "fulfillmentText": "Perfect! Thank you for being so patient, I just cancelled your appointment. Would you need help with anything else?" }
-                    cons
+                    console.log(`Printing response from UpdateSheet() function... ${message}`)
+
+         
