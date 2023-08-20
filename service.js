@@ -927,4 +927,5 @@ async function LookupAddress(parameters, context, id) {
                         console.log(`Successfully retrieved AppointmentIndex value appointment in memory... ${response}`)
                     })
                     const message = await ChangeAppointment(parameters, context, id)
-                    // var jsonResponse = { "fulfillmentText": "Perfect! Thank you for being so patient, I just cancelled your appointmen
+                    // var jsonResponse = { "fulfillmentText": "Perfect! Thank you for being so patient, I just cancelled your appointment. Would you need help with anything else?" }
+                    cons
