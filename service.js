@@ -930,4 +930,6 @@ async function LookupAddress(parameters, context, id) {
                     // var jsonResponse = { "fulfillmentText": "Perfect! Thank you for being so patient, I just cancelled your appointment. Would you need help with anything else?" }
                     console.log(`Printing response from UpdateSheet() function... ${message}`)
 
-         
+                    console.log(`Use response to determine the next best action`)
+
+ 
