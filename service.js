@@ -934,4 +934,4 @@ async function LookupAddress(parameters, context, id) {
 
                     if (message == "success") {
 
-                        var jsonResp
+                        var jsonResponse = "Perfect! Thank you for being so patient, I just cancelled your appointme
