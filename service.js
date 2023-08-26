@@ -936,4 +936,6 @@ async function LookupAddress(parameters, context, id) {
 
                         var jsonResponse = "Perfect! Thank you for being so patient, I just cancelled your appointment. Would you mind providing feedback on how I could improve? I want to learn what I can to better so that I can be more helpful in the future."
                         console.log("Sending callback function response to parent function...")
-  
+                        return jsonResponse
+    
+                    
