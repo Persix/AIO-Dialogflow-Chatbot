@@ -949,4 +949,7 @@ async function LookupAddress(parameters, context, id) {
 }
 
 app.get('oauth2callback', async(request, response) => {
-    respo
+    response.send("OAuth2 callback received")
+})
+
+async function VerifyAppo
