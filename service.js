@@ -955,4 +955,5 @@ app.get('oauth2callback', async(request, response) => {
 async function VerifyAppointment(time_details) {
     try {
         const auth = new google.auth.GoogleAuth({
-            keyFile: "/Users/danieldayto/Coding/node-dialogfl
+            keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
+            scopes: "https://www.googleapis.com/auth/spread
