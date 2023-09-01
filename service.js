@@ -952,4 +952,6 @@ app.get('oauth2callback', async(request, response) => {
     response.send("OAuth2 callback received")
 })
 
-async function VerifyAppo
+async function VerifyAppointment(time_details) {
+    try {
+        const auth = new google.auth.Goog
