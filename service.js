@@ -962,4 +962,7 @@ async function VerifyAppointment(time_details) {
         const client = await auth.getClient();
         const sheets = google.sheets({ version: 'v4', auth: client })
         const response = await sheets.spreadsheets.values.get({
-            spreadsheetId: s
+            spreadsheetId: spreadsheetId,
+            range: 'Sheet1!C2:C100'
+        })
+        var d
