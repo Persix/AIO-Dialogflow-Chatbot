@@ -965,4 +965,5 @@ async function VerifyAppointment(time_details) {
             spreadsheetId: spreadsheetId,
             range: 'Sheet1!C2:C100'
         })
-        var d
+        var date_parameter = time_details["date"][0]
+        var date = moment(date_parameter).
