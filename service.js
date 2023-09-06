@@ -969,4 +969,5 @@ async function VerifyAppointment(time_details) {
         var date = moment(date_parameter).format('M/DD/YYYY')
 
         const appointment_list = response.data.values
-       
+        console.log(typeof(appointment_list[0][0]))
+        for (var i=0; 
