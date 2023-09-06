@@ -966,4 +966,7 @@ async function VerifyAppointment(time_details) {
             range: 'Sheet1!C2:C100'
         })
         var date_parameter = time_details["date"][0]
-        var date = moment(date_parameter).
+        var date = moment(date_parameter).format('M/DD/YYYY')
+
+        const appointment_list = response.data.values
+       
