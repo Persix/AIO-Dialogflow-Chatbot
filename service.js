@@ -971,4 +971,7 @@ async function VerifyAppointment(time_details) {
         const appointment_list = response.data.values
         console.log(typeof(appointment_list[0][0]))
         for (var i=0; i < appointment_list.length; i++) {
-            let appointment 
+            let appointment = appointment_list[i][0]
+         
+            if (appointment == date) {
+ 
