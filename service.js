@@ -974,4 +974,6 @@ async function VerifyAppointment(time_details) {
             let appointment = appointment_list[i][0]
          
             if (appointment == date) {
- 
+                return "not available"
+            } 
+    
