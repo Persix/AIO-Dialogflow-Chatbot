@@ -980,4 +980,9 @@ async function VerifyAppointment(time_details) {
         return "available"
       
     } catch(err) {
-        conso
+        console.log("Error: " + err)
+    }
+}
+
+
+async function CreateAppointment(sessio
