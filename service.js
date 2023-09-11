@@ -976,4 +976,8 @@ async function VerifyAppointment(time_details) {
             if (appointment == date) {
                 return "not available"
             } 
-    
+        }        
+        return "available"
+      
+    } catch(err) {
+        conso
