@@ -993,4 +993,5 @@ async function CreateAppointment(session_id) {
 } catch (err) {
         console.log(err)
     }
-        var Destination = customerData
+        var Destination = customerData['DestinationAddress']
+        var Date = customerData['Appoint
