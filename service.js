@@ -988,4 +988,6 @@ async function VerifyAppointment(time_details) {
 async function CreateAppointment(session_id) {
     try {
         const client = new Redis()
-        var c
+        var customerData = await client.hgetall(session_id)
+        console.log(customerData)
+}
