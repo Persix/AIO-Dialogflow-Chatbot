@@ -990,4 +990,7 @@ async function CreateAppointment(session_id) {
         const client = new Redis()
         var customerData = await client.hgetall(session_id)
         console.log(customerData)
-}
+} catch (err) {
+        console.log(err)
+    }
+        var Destination = customerData
