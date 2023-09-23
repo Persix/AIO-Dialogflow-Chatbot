@@ -1001,3 +1001,6 @@ async function CreateAppointment(session_id) {
         var Phone = customerData['Phone']
         var Email = customerData['Email']
         var BagQuantity = customerData['BagQuantity']
+    try {
+        const auth = new google.auth.GoogleAuth({
+          
