@@ -999,4 +999,5 @@ async function CreateAppointment(session_id) {
         var FirstName = customerData['FirstName']
         var LastName = customerData['LastName']
         var Phone = customerData['Phone']
-        var Ema
+        var Email = customerData['Email']
+        var BagQuantity = customerData['BagQuantity']
