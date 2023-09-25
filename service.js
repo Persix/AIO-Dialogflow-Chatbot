@@ -1004,4 +1004,8 @@ async function CreateAppointment(session_id) {
     try {
         const auth = new google.auth.GoogleAuth({
             keyFile: "/Users/danieldayto/Coding/node-dialogflow/google-sheets-creds.json",
-            scopes: "https://www.googleapis.com/auth/sprea
+            scopes: "https://www.googleapis.com/auth/spreadsheets"
+        });
+        
+       
+        const client = await a
