@@ -1008,4 +1008,5 @@ async function CreateAppointment(session_id) {
         });
         
        
-        const client = await a
+        const client = await auth.getClient();        
+        console.log("Successfully connected to google 
