@@ -1012,4 +1012,8 @@ async function CreateAppointment(session_id) {
         console.log("Successfully connected to google sheets api!")
 
         const sheets = google.sheets({
-     
+            version: 'v4',
+            auth: client
+        })        
+       
+        con
