@@ -1016,4 +1016,5 @@ async function CreateAppointment(session_id) {
             auth: client
         })        
        
-        con
+        console.log("Attempting to write data into google sheets...")
+          
