@@ -1019,4 +1019,6 @@ async function CreateAppointment(session_id) {
         console.log("Attempting to write data into google sheets...")
                 
         await sheets.spreadsheets.values.append({
-            spreadsheetId: sprea
+            spreadsheetId: spreadsheetId,
+            range: "Sheet1!A:I",
+            valueInputOp
