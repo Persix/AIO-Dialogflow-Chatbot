@@ -1021,4 +1021,6 @@ async function CreateAppointment(session_id) {
         await sheets.spreadsheets.values.append({
             spreadsheetId: spreadsheetId,
             range: "Sheet1!A:I",
-            valueInputOp
+            valueInputOption: "USER_ENTERED",
+            resource: {
+         
