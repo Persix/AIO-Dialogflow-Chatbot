@@ -1023,4 +1023,4 @@ async function CreateAppointment(session_id) {
             range: "Sheet1!A:I",
             valueInputOption: "USER_ENTERED",
             resource: {
-         
+                values: [[ FirstName, LastName, Date, Time, Destination, Phone, Email, BagQuantity
