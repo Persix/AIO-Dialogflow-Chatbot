@@ -1029,3 +1029,7 @@ async function CreateAppointment(session_id) {
 
        
     } catch(err) {
+        console.log("Error ----" + err)
+    }
+
+    console.log("Attemptin
