@@ -1034,4 +1034,6 @@ async function CreateAppointment(session_id) {
 
     console.log("Attempting to send SMS using twilio...")
     try {
-    const accountSid = process
+    const accountSid = process.env.TWILIO_ACCOUNT_SID;
+    const authToken = process.env.TWILIO_AUTH_TOKEN;
+    const twili
