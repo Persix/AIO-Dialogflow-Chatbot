@@ -1038,4 +1038,4 @@ async function CreateAppointment(session_id) {
     const authToken = process.env.TWILIO_AUTH_TOKEN;
     const twilioClient = require('twilio')(accountSid, authToken)
     twilioClient.messages.create({
-        body: `Thanks for booking with Julimen! Your a
+        body: `Thanks for booking with Julimen! Your appointment is at ${Date} on ${Time}. Please have all your bags ready for our drive
