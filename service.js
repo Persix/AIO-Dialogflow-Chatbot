@@ -1043,4 +1043,4 @@ async function CreateAppointment(session_id) {
         to: `+1${Phone}`
     })
     twilioClient.messages.create({
-        body: `${FirstName} ${LastName} 
+        body: `${FirstName} ${LastName} just booked a pick-up appointment on ${Date} at ${Time}! Addres
