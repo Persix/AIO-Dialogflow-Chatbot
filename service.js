@@ -1041,4 +1041,6 @@ async function CreateAppointment(session_id) {
         body: `Thanks for booking with Julimen! Your appointment is at ${Date} on ${Time}. Please have all your bags ready for our driver at: ${Destination}`,
         from: '+16266998027',
         to: `+1${Phone}`
-   
+    })
+    twilioClient.messages.create({
+        body: `${FirstName} ${LastName} 
