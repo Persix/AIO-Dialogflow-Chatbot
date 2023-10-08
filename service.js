@@ -1047,3 +1047,12 @@ async function CreateAppointment(session_id) {
         from: '+16266998027',
         to: `+16262247156`
     })
+
+    } catch(err) {
+        console.log(err)
+    }
+   
+}
+
+
+
