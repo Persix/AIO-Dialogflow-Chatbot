@@ -6,4 +6,5 @@ This repository carries a backend solution for an AI chatbot that not only answe
 
 ## Prerequisites
 * [Creating a Dialogflow Agent](https://dialogflow.cloud.google.com/#/agent/)
-* [Google Cloud Setup](https://cloud.google.com/dialogflow/es/docs/quick
+* [Google Cloud Setup](https://cloud.google.com/dialogflow/es/docs/quick/setup)
+* [Node.JS Setup](https://www.pluralsight.com/guides/getting-started-with
