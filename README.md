@@ -5,4 +5,5 @@
 This repository carries a backend solution for an AI chatbot that not only answers questions and organizes appointments, but also improves user interactions with an intelligent Dialogflow chatbot.
 
 ## Prerequisites
-* [Creating a Dialogflow Agent](https://dialogflow.cloud.google.com/#/agent/
+* [Creating a Dialogflow Agent](https://dialogflow.cloud.google.com/#/agent/)
+* [Google Cloud Setup](https://cloud.google.com/dialogflow/es/docs/quick
