@@ -10,4 +10,7 @@ This repository carries a backend solution for an AI chatbot that not only answe
 * [Node.JS Setup](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 * [Redis Server - Session Management](https://www.sitepoint.com/using-redis-node-js/)
 
-(For more details and how to guides, please refer to the source README in Mar
+(For more details and how to guides, please refer to the source README in Markdown)
+
+## Setting up locally
+To start the backend application on 
