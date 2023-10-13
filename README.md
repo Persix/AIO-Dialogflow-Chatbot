@@ -13,4 +13,8 @@ This repository carries a backend solution for an AI chatbot that not only answe
 (For more details and how to guides, please refer to the source README in Markdown)
 
 ## Setting up locally
-To start the backend application on 
+To start the backend application on your local machine:
+```
+$ node service.js
+```
+Then, to set up a public URL wi
