@@ -17,4 +17,9 @@ To start the backend application on your local machine:
 ```
 $ node service.js
 ```
-Then, to set up a public URL wi
+Then, to set up a public URL with NGROK tunnel:
+```
+$ ngrok http <port>
+```
+
+## Run Applicatio
