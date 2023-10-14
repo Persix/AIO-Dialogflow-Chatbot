@@ -25,3 +25,5 @@ $ ngrok http <port>
 ## Run Application
 After setting up Node.JS and Redis server, follow the guides to setup required services and run this intelligent Dialogflow Chatbot at your own convenience.
 
+## About transferring ownership
+This project is now maintained by Persix.
