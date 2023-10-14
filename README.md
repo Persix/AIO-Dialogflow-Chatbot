@@ -22,4 +22,5 @@ Then, to set up a public URL with NGROK tunnel:
 $ ngrok http <port>
 ```
 
-## Run Applicatio
+## Run Application
+After setting up Node.JS and Redis server, follow the guides to setup required
